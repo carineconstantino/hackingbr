@@ -15,6 +15,7 @@ Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk
 - [ ] Instale o APP Filza Manager
 
 ## Acesso o aparelho com o SSH
+Link: https://blog.elcomsoft.com/2020/05/ios-jailbreaks-ssh-and-root-password/
 
 O Cydia instalado com o checkra1n possui o pacote OpenSSH.
 
@@ -22,6 +23,38 @@ Para descobrir a senha do aparelho, acesse o arquivo localizado em /private/etc/
 A linha do usuário root possui o hash da senha **smx7MYTQIi2M** que é **alpine**
 Em seguida, use o SSH para acessar o telefone. 
 
-Link: https://blog.elcomsoft.com/2020/05/ios-jailbreaks-ssh-and-root-password/
+## Extrair o arquivo IPA do dispositivo
+
+- [ ] Acessar o diretório do arquivo .app
+```
+cd /var/containers/Bundle/Application/
+ls -l
+```
+- [ ] Localizar o arquivo do aplicativo
+```
+ls * | grep -B 2 -i 'nome-do-aplicativo'
+
+Outra forma de localizar é acessar no dispositivo o Filza Manager o caminho
+/var/containers/Bundle/Application/ e será possível ver o nome do aplicativo e o seu código
+```
+- [ ] Copiar o diretório .app para um diretório com o nome Payload
+```
+cp -r [nome-do-aplicativo].app/ Payload/
+```
+- [ ] Compressão do diretório Payload usando .zip
+```
+Adicione a extensão .ipa diretamente na compressão
+
+zip -r /[caminho]/[nome-do-aplicativo].ipa Payload/
+
+Se o ZIP não estiver instalado, usar o comando apt-get para instalar
+```
+- [ ] Transferir o arquivo para o computador local
+```
+scp root@[IP]:/Payload/[nome-do-aplicativo].ipa
+```
+
+
+
 
 
