@@ -64,7 +64,20 @@ Link: https://github.com/carineconstantino/hackingbr/blob/main/Resources/Mobile/
 - [ ] Shadow <br>
 Link: https://www.youtube.com/watch?v=C-CpVJwRnhI <br>
 Link: https://github.com/jjolano/shadow
-Adicionar a fonte no Cydia. 
+```
+Adicionar a fonte no Cydia.
+
+https://ios.jjolano.me/
+
+Dentro do aplicativo habilitar o bypass no aplicativo-alvo 
+```
+- [ ] FlyJB <br>
+Link: https://mrepo.org/package/4125 <br>
+Link: https://yalujailbreak.net/flyjb/ <br>
+
+- [ ] A-Bypass <br>
+Link: https://onejailbreak.com/blog/a-bypass-tweak/ <br>
+
 
 
 
