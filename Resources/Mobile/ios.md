@@ -56,7 +56,7 @@ scp root@[IP]:/Payload/[nome-do-aplicativo].ipa
 ## MOBSF - Mobile Security Framework
 Use o MOBSF para fazer a análise estática do arquivo .ipa <br>
 Link: https://github.com/MobSF/Mobile-Security-Framework-MobSF <br>
-Link: https://mobsf.github.io/docs/#/installation?id=linuxmac (Instalação)
+Link: https://mobsf.github.io/docs/#/installation?id=linuxmac (Instalação) <br>
 Link: https://github.com/carineconstantino/hackingbr/blob/main/Resources/Mobile/docker.zip
 
 ## Aplicativos para bypass da detecção do Jailbreak
