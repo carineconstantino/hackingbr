@@ -78,6 +78,32 @@ Link: https://yalujailbreak.net/flyjb/ <br>
 - [ ] A-Bypass <br>
 Link: https://onejailbreak.com/blog/a-bypass-tweak/ <br>
 
+## Análise do binário do aplicativo 
+Link: https://github.com/saladandonionrings/iOS-Binary-Security-Analyzer
+
+- [ ] Instalar no Cydia o pacote Big Boss
+Link: http://apt.thebigboss.org/repofiles/cydia/
+ 
+- [ ] Instalar no Cydia do pacote optool_ios
+    
+- [ ] Instalar no dispositivo a ferramenta oTool
+```
+apt install otool
+```
+- [ ] Download o respositório do script para análise do binário
+```
+git clone https://github.com/saladandonionrings/ios-binary-checks.git
+```
+
+- [ ] Transfira o arquivo check-binary.sh para o dispositivo
+```
+scp check-binary.sh root@[IP]:/var/root
+```
+
+- [ ] Execute o análise no dispositivo
+```
+./check-binary.sh /var/containers/Bundle/Application/[HASH]/arquivo.app
+```
 
 
 
