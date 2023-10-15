@@ -2,7 +2,7 @@
 ## Jailbreak IPHONE 7 - IOS 14.8
 ## CheckRa1n
 
-Link: https://checkra.in/<p>
+Link: https://checkra.in/<br>
 Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk
 
 - [ ] Inicie o checkra1n
