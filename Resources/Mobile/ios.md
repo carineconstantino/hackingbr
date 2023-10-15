@@ -64,6 +64,7 @@ Link: https://github.com/carineconstantino/hackingbr/blob/main/Resources/Mobile/
 - [ ] Shadow <br>
 Link: https://www.youtube.com/watch?v=C-CpVJwRnhI <br>
 Link: https://github.com/jjolano/shadow
+Adicionar a fonte no Cydia. 
 
 
 
