@@ -53,7 +53,8 @@ Se o ZIP não estiver instalado, usar o comando apt-get para instalar
 ```
 scp root@[IP]:/Payload/[nome-do-aplicativo].ipa
 ```
-
+## MOBSF 
+Use o MOBSF para fazer a análise estática do arquivo .ipa
 
 
 
