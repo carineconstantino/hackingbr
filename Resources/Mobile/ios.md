@@ -114,6 +114,6 @@ Link: https://developer.apple.com/library/ios/documentation/Miscellaneous/Concep
 - [ ] Dispositivos que tem o processador A7 ou anteriores, possuem um processador chamado Secure Enclave
 - [ ] O Secure Enclave é um processador separado que possui o próprio processo de boot e seu hardware gera um número randômico (key)
 - [ ] Esse processador facilita as operações de criptografia no iOS
-- [ ] 
+- [ ] As chaves do TouchID, FaceID e a senha definida pelo usuário (passcode) ficam no Secure Enclave, que possui uma chave randômica
 
 
