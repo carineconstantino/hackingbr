@@ -105,6 +105,15 @@ scp check-binary.sh root@[IP]:/var/root
 ./check-binary.sh /var/containers/Bundle/Application/[UUID]/arquivo.app
 ```
 
+## Notas Teóricas
 
+- [ ] O sistema operacional iOS é baseado no Darwin OS, no qual é originalmente da Apple e escrito em C, C++ e Objective-C
+Link: https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html
+- [ ] iOS Security Guide: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
+- [ ] Boot ROM contém o Apple Root CA public-key que é usada para verificar que os softwares carregados são confiáveis pela Apple
+- [ ] Dispositivos que tem o processador A7 ou anteriores, possuem um processador chamado Secure Enclave
+- [ ] O Secure Enclave é um processador separado que possui o próprio processo de boot e seu hardware gera um número randômico (key)
+- [ ] Esse processador facilita as operações de criptografia no iOS
+- [ ] 
 
 
