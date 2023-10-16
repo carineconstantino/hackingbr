@@ -30,7 +30,7 @@ Em seguida, use o SSH para acessar o telefone.
 cd /var/containers/Bundle/Application/
 ls -l
 ```
-- [ ] Localizar o arquivo do aplicativo
+- [ ] Localizar o arquivo do aplicativo UUID
 ```
 ls * | grep -B 2 -i 'nome-do-aplicativo'
 
@@ -102,7 +102,7 @@ scp check-binary.sh root@[IP]:/var/root
 
 - [ ] Execute o análise no dispositivo
 ```
-./check-binary.sh /var/containers/Bundle/Application/[HASH]/arquivo.app
+./check-binary.sh /var/containers/Bundle/Application/[UUID]/arquivo.app
 ```
 
 
