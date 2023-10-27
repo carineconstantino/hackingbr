@@ -1,3 +1,9 @@
+# S3SCANNER Tool
+Link: https://github.com/sa7mon/S3Scanner
+```
+apt install s3scanner
+```
+
 # S3 Scan com AWSCLI
 
 ```
