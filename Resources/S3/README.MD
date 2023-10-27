@@ -1,4 +1,4 @@
-# S3SCANNER Tool
+# S3 Scanner Tool
 Link: https://github.com/sa7mon/S3Scanner
 ```
 apt install s3scanner
