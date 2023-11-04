@@ -1,6 +1,6 @@
 ## DNS Lookup
 
-[](https://www.nslookup.io/learning/)
+[NSLookup Learning](https://www.nslookup.io/learning/)
 
-[](https://www.nslookup.io/)
+[NSLookup](https://www.nslookup.io/)
 
