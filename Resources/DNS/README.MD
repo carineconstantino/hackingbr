@@ -1,3 +1,3 @@
 ## DNS Lookup
 [](https://www.nslookup.io/learning/)
-https://www.nslookup.io/
+(https://www.nslookup.io/)
