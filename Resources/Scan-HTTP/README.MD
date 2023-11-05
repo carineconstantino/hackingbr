@@ -109,3 +109,9 @@ Pulsedive
 Packet Storm ecurity
 GrayHatWarefare
 ```
+
+## Clone site com WGET 
+```
+wget -mk -nH [url]
+```
+
