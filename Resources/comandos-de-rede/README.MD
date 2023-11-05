@@ -31,4 +31,7 @@ ip route del default dev [interface]
 
 # adiciona uma rota
 ip route add default via [endereço-gateway] dev [interface] metric [priority-number]
+
+# Tabela ARP
+arp -an 
 ```
