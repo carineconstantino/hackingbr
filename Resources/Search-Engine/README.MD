@@ -27,3 +27,6 @@
 
 ## Hacker Target
 [Hacker Target](https://hackertarget.com)
+
+## CVE Search
+[CVE Search](https://github.com/adulau/cve-search)
