@@ -1,6 +1,11 @@
 ## GoBuster
 ```
 gobuster dir -u [IP] -w /usr/share/wordlists/dirb/common.txt -t 5
+
+gobuster dir -u [ip]  -w /usr/share/wordlists/api_list/common_apis_160 -x 200,202,301 -b 302
+
+-x = status code filtro
+-b = ignore status code 
 ```
 
 ## WMAP 
