@@ -11,9 +11,8 @@ HTML Scan é uma ferramenta em python para extrair links e arquivos de páginas 
 python3 html_scan.py - url exemplo.com
 ```
 
-<p align="center">
+<p align="left">
     <img width="500" src="html_scan_exemplo.png" alt="HTML SCAN Exemplo"><p></p>
-    <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
 </p>
 
 
