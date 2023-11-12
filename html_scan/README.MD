@@ -1,5 +1,5 @@
 # HACKINGBR
 # HTML SCAN
 <p align="center">
-![](html_scan.png)
+    <img width="200" src="html_scan.png" alt="HTML SCAN">
 </p>
