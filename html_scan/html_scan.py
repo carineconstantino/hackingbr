@@ -8,7 +8,7 @@ import datetime
 
 titulo  = pyfiglet.figlet_format("HTML SCAN")
 print(titulo)
-print('Criado por Carine Constantino Contato: carineconstantino@hotmail.com\n')
+print('Criado por @hackingbr\n')
 print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ')
 
 def extrair_links_do_html(html_conteudo):
@@ -92,3 +92,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     search_links(args.url)
+    
