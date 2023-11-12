@@ -8,7 +8,7 @@ HTML Scan é uma ferramenta em python para extrair links e arquivos de páginas 
 
 ## Exemplo
 ```
-python3 html_scan.py - url exemplo.com
+python3 html_scan.py -url exemplo.com
 ```
 
 <p align="left">
@@ -16,5 +16,6 @@ python3 html_scan.py - url exemplo.com
 </p>
 
 
+##
 
 
