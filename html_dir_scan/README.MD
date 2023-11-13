@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="500" src="html_scan.png" alt="HTML DIR SCAN"><p></p>
+    <img width="500" src="html_dir_scan.png" alt="HTML DIR SCAN"><p></p>
     <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
 </p>
 
@@ -12,12 +12,7 @@ python3 html_dir_scan.py -url exemplo.com
 ```
 ### Resultado na CLI
 <p align="left">
-    <img width="500" src="html_scan_exemplo.png"><p></p>
-</p>
-
-### Resultado no HTML
-<p align="left">
-    <img width="500" src="html_scan_report.png"><p></p>
+    <img width="500" src="html_dir_scan_exemplo.png"><p></p>
 </p>
 
 #
