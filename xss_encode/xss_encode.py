@@ -13,13 +13,13 @@ print('-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_')
 
 if __name__ == '__main__':
 
-    program_name  = argparse.ArgumentParser(description = 'Mini-XSS-Test')
+    program_name  = argparse.ArgumentParser(description = 'XSS Encode')
     program_name.add_argument('--url', action='store', dest='url',
-                                            required = True, help = ''' Informe uma URL para executar o attack-test :::
-                                            Exemplo: python3 mini_xss_test.py --target https://example.com.br ''')
+                                            required = True, help = ''' Informe uma URL para executar o scan :::
+                                            Exemplo: python3 xss_encode.py --target https://example.com ''')
     program_name.add_argument('--param', action='store', dest='param',
-                                            required = True, help = ''' Informe uma URL para executar o attack-test :::
-                                            Exemplo: python3 mini_xss_test.py --target https://example.com.br ''')
+                                            required = True, help = ''' Informe uma URL para executar o scan :::
+                                            Exemplo: python3 xss_encode.py --target https://example.com''')
                                                         
     argumentos_parser = program_name.parse_args()
     base_url = argumentos_parser.url
