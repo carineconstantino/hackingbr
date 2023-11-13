@@ -12,7 +12,7 @@ python3 xss_encode.py --url exemplo.com --p cat
 ```
 ### XSS Refletido identificado
 <p align="left">
-    <img width="500" src="html_scan_exemplo.png"><p></p>
+    <img width="500" src="xss_encode_exemplo.png"><p></p>
 </p>
 
 ### Resultado no HTML
