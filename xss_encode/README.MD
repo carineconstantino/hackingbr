@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="500" src="xss_encode_logo.png" alt="HTML SCAN"><p></p>
+    <img width="500" src="xss_encode.png" alt="XSS Encode"><p></p>
     <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
 </p>
 
