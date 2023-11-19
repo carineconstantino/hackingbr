@@ -9,7 +9,7 @@ Por padrão, a ferramenta usa a wordlist small.txt.
 
 ## Exemplo
 ```
-python3 html_dir_scan.py -url exemplo.com
+python3 html_dir_scan.py -url https://exemplo.com -w small.txt
 ```
 ### Resultado na CLI
 <p align="left">
