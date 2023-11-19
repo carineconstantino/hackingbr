@@ -5,6 +5,7 @@
 
 ## HTML DIR SCAN TOOL
 HTML DIR Scan é uma ferramenta em python que identifica diretórios (path) no código HTML e em seguida realiza um brute-force nos diretórios localizados.
+Por padrão, a ferramenta usa a wordlist small.txt. 
 
 ## Exemplo
 ```
