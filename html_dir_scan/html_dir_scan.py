@@ -16,10 +16,15 @@ if __name__ == '__main__':
     program_name  = argparse.ArgumentParser(description = 'HTML DIR SCAN')
     program_name.add_argument('-url', action='store', dest='url',
                                             required = True, help = ''' Informe uma URL para executar o scan :::
-                                            Exemplo: python3 html_dir_scan.py --target https://example.com.br ''')
+                                            Exemplo: python3 html_dir_scan.py -url https://example.com.br ''')
+    
+    program_name.add_argument('-w', action='store', dest='wordlist',
+                                            required = True, help = ''' Informe uma URL para executar o scan :::
+                                            Exemplo: python3 html_dir_scan.py -url https://example.com.br ''')
                                                         
     argumentos_parser = program_name.parse_args()
     base_url = argumentos_parser.url
+    base_wordlist = argumentos_parser.wordlist
 
 def search_dir_in_html():
 
@@ -37,7 +42,7 @@ def search_dir_in_html():
      	print('-->Send: ', req_dir.url)
      	print('-->Status: ', req_dir.status_code)
      	
-     	file_path = 'small.txt'
+     	file_path = base_wordlist
      	open_file = open(file_path, 'r')
      	if 'req_dir.status_code == 200':
      		for i in open_file.readlines():
