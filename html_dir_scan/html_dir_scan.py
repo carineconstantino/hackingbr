@@ -27,6 +27,8 @@ def search_dir_in_html():
      response = req.text	
      soup = BeautifulSoup(response, 'html.parser')
      search_dir = set(re.findall(r'/[a-zA-Z]+/', response))
+     d = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+     print('[+] Data do Scan: ', d)
      print('[+] Directories Found in HTML:\n', search_dir)
      print('-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_')
      print('[+] Testing Directories Access & Brute-Force\n')
@@ -37,14 +39,18 @@ def search_dir_in_html():
      	
      	file_path = 'small.txt'
      	open_file = open(file_path, 'r')
-     	if 'req_dir.status_code == 200 || 404':
+     	if 'req_dir.status_code == 200':
      		for i in open_file.readlines():
      			headers = {'Accept-Encoding': 'gzip'}
      			req_brute = requests.get(req_dir.url + i, headers=headers)
-     			print('-->Request: ', req_brute.url)
-     			print('<--Response: ', req_brute.status_code)
-     		
+            
+def search_result():
+    if 'req_brute == 200':
+        print('-->Request: ', req_brute.url)
+        print('<--Response: ', req_brute.status_code)
+
      	
 
 
 search_dir_in_html()
+search_result()
