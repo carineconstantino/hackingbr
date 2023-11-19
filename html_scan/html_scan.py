@@ -51,7 +51,7 @@ def search_links(url):
         for link in js_links:
             print("[+] ",link)
             
-        # Genera o relatorio em HTML
+        # Gera o relatorio em HTML
         html_report = f"""
         <html>
         <head>
