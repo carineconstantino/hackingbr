@@ -12,23 +12,23 @@ Você também pode configurar localmente as APIs de teste.
 ## The Completely Ridiculous API (crAPI)
 
 Link: https://github.com/OWASP/crAPI
-
+```
 $mkdir ~/lab
 $cd ~/lab
 curl -o docker-compose.yml https://raw.githubusercontent.com/OWASP/crAPI/main/deploy/docker/docker-compose.yml
 docker-compose pull
 docker-compose -f docker-compose.yml --compatibility up -d
+```
 
 Após a instalação, você pode acessar localmente a API no endereço http://127.0.0.1:8888 para ter acesso a crAPI landing page ou http://127.0.0.1:8025 a aplicação crAPI Mailhog Server. 
 
 O comando para para a execução da API é: 
-
+```
 docker-compose stop
-
+```
 
 Caso você tenha problemas durante a instalação local, existe a opção da versão de desenvolvimento que pode ser acessada no link abaixo:
 https://github.com/OWASP/crAPI
-
 
 ## vAPI
 
