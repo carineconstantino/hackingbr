@@ -9,7 +9,7 @@ A extensão Bookmark List cria uma lista com os links armazenados no navegador. 
 ## Como usar? 
 
 ### Pré-Requisito
-:pushpin:Para fazer o downloado apenas do diretório bookmark-list, use a ferramenta SVN
+:pushpin:Para fazer o download apenas do diretório bookmark-list, use a ferramenta SVN
 ```
 apt update
 
