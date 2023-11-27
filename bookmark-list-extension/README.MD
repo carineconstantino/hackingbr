@@ -34,7 +34,7 @@ git svn clone https://github.com/carineconstantino/hackingbr/trunk/bookmark-list
 
 :round_pushpin:Faça a importação do diretório da extensão
 
-```
+
 ## Nota
 :bell:Para facilitar a visualização dos links, escolha nomes sugestivos para os títulos dos links salvos. 
 #
