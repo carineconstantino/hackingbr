@@ -17,8 +17,8 @@ apt-get install svn
 ```
 [+] Depois que a ferramenta SVN for instalada, execute as etapas abaixo
 
-```
-1.Escolha um diretório para armazenar os arquivos
+
+:round_pushpin:1.Escolha um diretório para armazenar os arquivos
 cd /opt
 
 2.Faça o download
