@@ -12,13 +12,13 @@ A extensão Bookmark List cria uma lista com os links armazenados no navegador. 
 cd /opt
 
 2.Faça o download
-git clone LINK 
+git clone https://github.com/carineconstantino/hackingbr/tree/main/bookmark-list-extension/bookmarkList
 
 3.Acesse a área de extensão do navegador
 
 4.Habilite o modo desenvolvedor
 
-5.Faça a importação do diretório com os arquivos da extensão
+5.Faça a importação do diretório da extensão
 
 ```
 ## Nota
