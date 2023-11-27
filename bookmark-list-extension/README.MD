@@ -3,13 +3,13 @@
     <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
 </p>
 
-## HTML DIR SCAN TOOL
-HTML DIR Scan é uma ferramenta em python que identifica diretórios (path) no código HTML e em seguida realiza um brute-force nos diretórios localizados.
-Por padrão, a ferramenta usa a wordlist small.txt. 
+## Bookmark List Extension
+A extensão Bookmark List cria uma lista com os links armazenados no navegador. O objetivo da ferramenta é permitir o acesso rápido aos links salvos.  
 
-## Exemplo
+## Como usar? 
 ```
-python3 html_dir_scan.py -url https://exemplo.com -w small.txt
+1.Faça o download dos arquivos
+
 ```
 ### Resultado na CLI
 <p align="left">
