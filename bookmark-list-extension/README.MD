@@ -8,13 +8,20 @@ A extensão Bookmark List cria uma lista com os links armazenados no navegador. 
 
 ## Como usar? 
 ```
-1.Faça o download dos arquivos
+1.Escolha um diretório para armazenar os arquivos
+cd /opt
+
+2.Faça o download
+git clone LINK 
+
+3.Acesse a área de extensão do navegador
+
+4.Habilite o modo desenvolvedor
+
+5.Faça a importação do diretório com os arquivos da extensão
 
 ```
-### Resultado na CLI
-<p align="left">
-    <img width="500" src="html_dir_scan_exemplo.png"><p></p>
-</p>
-
+## Nota
+Para facilitar a visualização dos links, recomendos usar definir títulos para os links salvos. 
 #
 
