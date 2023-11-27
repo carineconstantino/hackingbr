@@ -9,13 +9,13 @@ A extensão Bookmark List cria uma lista com os links armazenados no navegador. 
 ## Como usar? 
 
 ### Pré-Requisito
-Para fazer o downloado apenas do diretório bookmark-list, use a ferramenta SVN
+[+] Para fazer o downloado apenas do diretório bookmark-list, use a ferramenta SVN
 ```
 apt update
 
 apt-get install svn
 ```
-Depois que a ferramenta SVN for instalada, execute as etapas abaixo
+[+] Depois que a ferramenta SVN for instalada, execute as etapas abaixo
 
 ```
 1.Escolha um diretório para armazenar os arquivos
