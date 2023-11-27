@@ -15,7 +15,7 @@ apt update
 
 apt-get install svn
 ```
-Depois que a ferramenta SVN for instalada, executa as etapas abaixo
+Depois que a ferramenta SVN for instalada, execute as etapas abaixo
 
 ```
 1.Escolha um diretório para armazenar os arquivos
