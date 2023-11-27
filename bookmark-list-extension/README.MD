@@ -36,6 +36,6 @@ git svn clone https://github.com/carineconstantino/hackingbr/trunk/bookmark-list
 
 ```
 ## Nota
-Para facilitar a visualização dos links, recomendo usar definir títulos para os links salvos. 
+:bell:Para facilitar a visualização dos links, escolha nomes sugestivos para os títulos dos links salvos. 
 #
 
