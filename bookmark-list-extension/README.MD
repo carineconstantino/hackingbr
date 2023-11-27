@@ -22,6 +22,6 @@ git clone LINK
 
 ```
 ## Nota
-Para facilitar a visualização dos links, recomendos usar definir títulos para os links salvos. 
+Para facilitar a visualização dos links, recomendo usar definir títulos para os links salvos. 
 #
 
