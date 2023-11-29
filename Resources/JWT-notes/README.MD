@@ -1,10 +1,10 @@
 ## JWE - JSON Web Encryption 
 <p>É um padrão de segurança para os dados transmitidos pelo JWT. 
-O JWE vai criptografar o JWT e protege os dados do payload ao criptografá-los. 
+O JWE vai criptografar o JWT e proteger os dados do payload ao criptografá-los. 
 Pode usar criptografia simétrica ou assimétrica (recomendada). 
 </p>
 <p>Um token JWE possui 5 partes:<br></br>
-[+] Cabeçalho
+<br></br>[+] Cabeçalho
 [+] Content Encryption Key
 [+] Vetor de Inicialização
 [+] Texto Cifrado
