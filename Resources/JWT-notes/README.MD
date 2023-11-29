@@ -3,9 +3,9 @@
 O JWE vai criptografar o JWT e proteger os dados do payload ao criptografá-los. 
 Pode usar criptografia simétrica ou assimétrica (recomendada). 
 </p>
-<p>Um token JWE possui 5 partes:<br></br>
+<p>Um token JWE possui 5 partes:
 <br></br>[+] Cabeçalho
-[+] Content Encryption Key
+<br></br>[+] Content Encryption Key
 [+] Vetor de Inicialização
 [+] Texto Cifrado
 [+] Tag de Autenticação
