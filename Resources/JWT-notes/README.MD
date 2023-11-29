@@ -2,6 +2,8 @@
 <p>É um padrão de segurança para os dados transmitidos pelo JWT. 
 O JWE vai criptografar o JWT e proteger os dados do payload ao criptografá-los. 
 Pode usar criptografia simétrica ou assimétrica (recomendada). 
+
+O JWE adiciona confidencialidade e garante que apenas as partes autorizadas na comunicação tenham acesso aos dados transmitidos. 
 </p>
 <p>Um token JWE possui 5 partes:
 <br></br>[+] Cabeçalho
