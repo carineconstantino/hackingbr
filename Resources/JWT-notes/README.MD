@@ -6,9 +6,9 @@ Pode usar criptografia simétrica ou assimétrica (recomendada).
 <p>Um token JWE possui 5 partes:
 <br></br>[+] Cabeçalho
 <br></br>[+] Content Encryption Key
-[+] Vetor de Inicialização
-[+] Texto Cifrado
-[+] Tag de Autenticação
+<br></br>[+] Vetor de Inicialização
+<br></br>[+] Texto Cifrado
+<br></br>[+] Tag de Autenticação
 <p>
 Suporta vários algoritmos de criptogradfia como RSA, AES-GCM e ECDH-ES.
 </P>
