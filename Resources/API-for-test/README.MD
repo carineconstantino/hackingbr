@@ -3,7 +3,7 @@
 Ambas são aplicações desenvolvidas para testar as ferramentas e as técnicas de hacking em API. 
 APISec.ia disponibiliza um laboratório hacking para API que você pode usar para praticar. 
 
-crAPI é localizada em [crapi](crapi.apisec.ai)<p>
+crAPI é localizada em [crapi](http://crapi.apisec.ai/login)<p>
 vAPI é localizada em [vapi](http://vapi.apisec.ai/)
 
 Você também pode configurar localmente as APIs de teste. 
