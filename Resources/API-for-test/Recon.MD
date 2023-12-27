@@ -16,5 +16,4 @@
 /altair 
 /playground
 ```
-+ Outras Wordlists
-[Wordlist API](https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content/api)
++ Outras [Wordlist API](https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content/api)
