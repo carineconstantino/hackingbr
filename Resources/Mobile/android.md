@@ -94,20 +94,20 @@ https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting#exploiting-
 ```
 ### Start Activity pelo ADB
 
-./adb shell am start [package-name]/[activity-name]<p>
-./adb shell am start -n [package-name]/[activity-name]<p>
-./adb shell am start -a android.intent.action.VIEW https://[site] = realiza a ação de abrir o site<p>
-./adb shell am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a ação de ligar para um número<p>
-./adb shell am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps<p> 
-./adb shell am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos<p>
+./adb shell am start [package-name]/[activity-name]
+./adb shell am start -n [package-name]/[activity-name]
+./adb shell am start -a android.intent.action.VIEW https://[site] = realiza a ação de abrir o site
+./adb shell am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a ação de ligar para um número
+./adb shell am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps
+./adb shell am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos
 
 ### Start Activity dentro do dispositivo
 
-am start [package-name]/[activity-name]<p>
-am start -n [package-name]/[activity-name]<p>
-am start -a android.intent.action.VIEW https://[site] = realiza a ação de abrir o site<p>
-am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a ação de ligar para um número<p>
-am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps<p> 
-am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos<p>
+am start [package-name]/[activity-name]
+am start -n [package-name]/[activity-name]
+am start -a android.intent.action.VIEW https://[site] = realiza a ação de abrir o site
+am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a ação de ligar para um número
+am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps
+am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos
 ```
 
