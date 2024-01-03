@@ -82,4 +82,32 @@ jadx [app].apk -d [output-nome]
 ### GUI
 jadx-gui [app].apk
 ```
+## Activities
+Guia para Activities: https://developer.android.com/guide/appendix/app-intents?hl=pt-br<p>
+Referências:<p>
+https://developer.android.com/topic/security/risks/android-exported<p>
+https://developer.android.com/guide/components/activities/background-starts<p>
+https://developer.android.com/guide/components/activities/intro-activities<p>
+https://aupsham98.medium.com/exploiting-android-activity-activity-android-exported-true-93ffeb263682<p>
+https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting#exploiting-exported-activities-authorisation-bypass<p>
+
+```
+### Start Activity pelo ADB
+
+./adb shell am start [package-name]/[activity-name]<p>
+./adb shell am start -n [package-name]/[activity-name]<p>
+./adb shell am start -a android.intent.action.VIEW https://[site] = realiza a ação de abrir o site<p>
+./adb shell am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a ação de ligar para um número<p>
+./adb shell am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps<p> 
+./adb shell am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos<p>
+
+### Start Activity dentro do dispositivo
+
+am start [package-name]/[activity-name]<p>
+am start -n [package-name]/[activity-name]<p>
+am start -a android.intent.action.VIEW https://[site] = realiza a ação de abrir o site<p>
+am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a ação de ligar para um número<p>
+am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps<p> 
+am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos<p>
+```
 
