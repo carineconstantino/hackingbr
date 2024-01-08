@@ -82,6 +82,11 @@ jadx [app].apk -d [output-nome]
 ### GUI
 jadx-gui [app].apk
 ```
+## APKSigner (ver as assinaturas do APK)
+```
+apt install -y apksigner
+```
+
 ## Activities
 Guia para Activities: https://developer.android.com/guide/appendix/app-intents?hl=pt-br<p>
 Referências:<p>
