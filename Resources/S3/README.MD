@@ -21,3 +21,15 @@ Default output format [None]: json
 ```
 ## Public Search S3
 Link: https://buckets.grayhatwarfare.com/
+
+## S3 Commands
+```
+## Listar 
+aws s3 ls s3://[nome-do-repositorio]
+
+## Download
+aws s3 cp s3://[nome-do-repositorio]
+```
+
+
+
