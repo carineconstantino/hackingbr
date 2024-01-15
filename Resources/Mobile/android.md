@@ -135,4 +135,6 @@ Link: https://redfoxsec.com/blog/protect-your-android-app-preventing-exploitatio
 ```
 ./adb shell am start -W -a android.intent.action.VIEW -d [schema]://[host]/[path]
 ```
+### PendingIntent
+Link: https://www.youtube.com/watch?v=pc8ZKl5XG24
 
