@@ -117,15 +117,16 @@ am start -a android.intent.action.VIEW content://contacts/people = realiza a aç
 ```
 ### Start Services in Background
 ```
+### Dentro do dispositivo
 -n = componente
 
-am startservices -n [nome-do-pacote/nome-do-serviço]
+am start-service -n [nome-do-pacote/nome-do-serviço]
 am stopservices -n [nome-do-pacote/nome-do-serviço]
-am startservices -n [nome-do-pacote/nome-do-serviço] -a [nome-da-action]
+am start-service -n [nome-do-pacote/nome-do-serviço] -a [nome-da-action]
 
-Exemplo: am startservices -n com.android.music/com.android.music.MediaPlaybackService
+Exemplo: am start-service -n com.android.music/com.android.music.MediaPlaybackService
 
-am startservices -n org.owasp.android/.services.LocationService -a org.owasp.android.services.LocationServices
+am start-service -n org.owasp.android/.services.LocationService -a org.owasp.android.services.LocationServices
 ```
 ### Deep Links
 Link: https://medium.com/mobis3c/deep-link-exploitation-introduction-open-unvalidated-redirection-b8344f00b17b<p>
