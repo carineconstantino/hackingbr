@@ -115,4 +115,15 @@ am start -a android.intent.action.CALL -d tel:[numero-do-telefone] = realiza a a
 am start -a android.intent.action.VIEW geo:0,0?=[palavra-para-buscar] = realiza a ação de fazer uma busca no Google Maps
 am start -a android.intent.action.VIEW content://contacts/people = realiza a ação de abrir a lista de contatos
 ```
+### Start Services in Background
+```
+-n = componente
 
+am startservices -n [nome-do-pacote/nome-do-serviço]
+am stopservices -n [nome-do-pacote/nome-do-serviço]
+am startservices -n [nome-do-pacote/nome-do-serviço] -a [nome-da-action]
+
+Exemplo: am startservices -n com.android.music/com.android.music.MediaPlaybackService
+
+am startservices -n org.owasp.android/.services.LocationService -a org.owasp.android.services.LocationServices
+```
