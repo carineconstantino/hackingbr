@@ -127,3 +127,10 @@ Exemplo: am startservices -n com.android.music/com.android.music.MediaPlaybackSe
 
 am startservices -n org.owasp.android/.services.LocationService -a org.owasp.android.services.LocationServices
 ```
+### Deep Links
+Link: https://medium.com/mobis3c/deep-link-exploitation-introduction-open-unvalidated-redirection-b8344f00b17b<p>
+Link: https://inesmartins.github.io/exploiting-deep-links-in-android-part1/index.html
+```
+./adb shell am start -W -a android.intent.action.VIEW -d [schema]://[host]/[path]
+```
+
