@@ -129,7 +129,8 @@ am startservices -n org.owasp.android/.services.LocationService -a org.owasp.and
 ```
 ### Deep Links
 Link: https://medium.com/mobis3c/deep-link-exploitation-introduction-open-unvalidated-redirection-b8344f00b17b<p>
-Link: https://inesmartins.github.io/exploiting-deep-links-in-android-part1/index.html
+Link: https://inesmartins.github.io/exploiting-deep-links-in-android-part1/index.html<p>
+Link: https://redfoxsec.com/blog/protect-your-android-app-preventing-exploitation-of-deep-links/
 ```
 ./adb shell am start -W -a android.intent.action.VIEW -d [schema]://[host]/[path]
 ```
