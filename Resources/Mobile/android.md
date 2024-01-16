@@ -83,6 +83,7 @@ jadx [app].apk -d [output-nome]
 jadx-gui [app].apk
 ```
 ### ADB - Android Debug Bridge
+Link: https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 ```
 adb devices = lista devides (-d devices / -e emuladores / -s serial)
 adb shell = acessa shell do device
