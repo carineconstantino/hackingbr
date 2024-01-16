@@ -82,6 +82,20 @@ jadx [app].apk -d [output-nome]
 ### GUI
 jadx-gui [app].apk
 ```
+### ADB - Android Debug Bridge
+```
+adb devices = lista devides (-d devices / -e emuladores / -s serial)
+adb shell = acessa shell do device
+adb shell su = acessa shell como root
+adb shell [command] = executa um comando no device
+adb push teste.txt /data/local/tmp = copia dados para o android
+adb pull /data/local/tmp/teste.txt = pega dados do android
+adb install file.apk = instala o app manualmente
+adb uninstall package = desinstala o app
+adb kill-server = encerra o serviço do adb
+adb start-server = inicia o serviço do adb
+```
+
 ## APKSigner (ver as assinaturas do APK)
 ```
 apt install -y apksigner
