@@ -154,3 +154,6 @@ Link: https://redfoxsec.com/blog/protect-your-android-app-preventing-exploitatio
 Link: https://www.youtube.com/watch?v=pc8ZKl5XG24<p>
 Link: https://valsamaras.medium.com/pending-intents-a-pentesters-view-92f305960f03
 
+### Memory DUMP 
+#### Frida Dump
+Link: https://github.com/Nightbringer21/fridump
