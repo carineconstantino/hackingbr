@@ -3,6 +3,7 @@ XML Decoder é uma classe Java usada para ler documentos XML que foram criados c
 A vulnerabilidade ocorre quando a chamada para o método readObject é implementada de modo inseguro. 
 
 ## LAB
+#### Identificando o uso da classe XML Decode na resposta da aplicação
 
 
 
