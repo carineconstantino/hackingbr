@@ -120,3 +120,5 @@ Link: https://developer.apple.com/library/ios/documentation/Miscellaneous/Concep
 Função ```ApplicationDidEnterBackground()```
 Link: https://developer.apple.com/library/archive/qa/qa1838/_index.html
 
+A captura de tela fica armazenada no local ```/Library/Caches/Snapshots/```
+
