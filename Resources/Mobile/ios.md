@@ -116,4 +116,7 @@ Link: https://developer.apple.com/library/ios/documentation/Miscellaneous/Concep
 - [ ] Esse processador facilita as operações de criptografia no iOS
 - [ ] As chaves do TouchID, FaceID e a senha definida pelo usuário (passcode) ficam no Secure Enclave, que possui uma chave randômica
 
+## Prevenir Captura de tela
+Função ```ApplicationDidEnterBackground()```
+Link: https://developer.apple.com/library/archive/qa/qa1838/_index.html
 
