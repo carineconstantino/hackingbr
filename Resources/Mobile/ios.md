@@ -131,5 +131,6 @@ kSecAttrAccessibleAfterFirstUnlock - itens não podem ser acessados após o rebo
 kSecAttrAccessibleWhenUnlocked - itens podem ser acessados apenas enquanto o dispositivo está desbloqueado.
 "thisDeviceOnly" - pode ser habilitado nos 3 métodos citados. Quando habilitado, criptografa os itens da Keychain com o UID do device. Os itens da keychain no backup ficam inválidos.
 ```
+Para manter a separação dos dados armazenados na Keychain, IOS usa o AppIdentifierPrefix (ID Apple) e o BundleIdentifier (User ID). 
 
 
