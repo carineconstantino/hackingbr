@@ -129,8 +129,7 @@ Usa criptogradia simétrica AES Key (passcode do usuário + salt (256 bit UID))
 kSecAttrAccessibleAlways - itens marcados com esse atributo não são armazenados de forma segura na Kaychain. (Deprecated)
 kSecAttrAccessibleAfterFirstUnlock - itens não podem ser acessados após o reboot até o dispositivo ser desbloqueado pelo usuário.
 kSecAttrAccessibleWhenUnlocked - itens podem ser acessados apenas enquanto o dispositivo está desbloqueado.
-"thisDeviceOnly" - pode ser habilitado nos 3 métodos citados. Quando habilitado, criptografa os itens da Keychain com o UID do device.
-Os itens da keychain no backup ficam inválidos.
+"thisDeviceOnly" - pode ser habilitado nos 3 métodos citados. Quando habilitado, criptografa os itens da Keychain com o UID do device. Os itens da keychain no backup ficam inválidos.
 ```
 
 
