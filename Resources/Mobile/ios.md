@@ -122,3 +122,15 @@ Link: https://developer.apple.com/library/archive/qa/qa1838/_index.html
 
 A captura de tela fica armazenada no local ```/Library/Caches/Snapshots/```
 
+## Keychain
+Container criptografado que armazena senhas para aplicativos e serviços do IOS.
+Usa criptogradia simétrica AES Key (passcode do usuário + salt (256 bit UID))
+```
+kSecAttrAccessibleAlways - itens marcados com esse atributo não são armazenados de forma segura na Kaychain. (Deprecated)
+kSecAttrAccessibleAfterFirstUnlock - itens não podem ser acessados após o reboot até o dispositivo ser desbloqueado pelo usuário.
+kSecAttrAccessibleWhenUnlocked - itens podem ser acessados apenas enquanto o dispositivo está desbloqueado.
+"thisDeviceOnly" - pode ser habilitado nos 3 métodos citados. Quando habilitado, criptografa os itens da Keychain com o UID do device.
+Os itens da keychain no backup ficam inválidos.
+```
+
+
