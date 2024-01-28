@@ -137,5 +137,9 @@ Nas versões anteriores ao IOS 10.3 quando um aplicativo é deletado, IOS não d
 ### Keychain Dump
 Link: https://github.com/ptoomey3/Keychain-Dumper
 
+## Cookies
+IOS armazena os cookies dos aplicativos no diretório /Library/Cookies, no arquivo cookies.binarycookies.
 
+### Binary Cookie Parser
+Link: https://github.com/mdegrazia/Safari-Binary-Cookie-Parser
 
