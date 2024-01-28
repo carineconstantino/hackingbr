@@ -143,3 +143,5 @@ IOS armazena os cookies dos aplicativos no diretório ```/private/var/mobile/Lib
 ### Binary Cookie Parser
 Link: https://github.com/mdegrazia/Safari-Binary-Cookie-Parser
 
+### Keyboard Cache 
+Localizado no diretório /private/var/mobile/Library/Keyboard
