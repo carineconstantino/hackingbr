@@ -132,5 +132,10 @@ kSecAttrAccessibleWhenUnlocked - itens podem ser acessados apenas enquanto o dis
 "thisDeviceOnly" - pode ser habilitado nos 3 métodos citados. Quando habilitado, criptografa os itens da Keychain com o UID do device. Os itens da keychain no backup ficam inválidos.
 ```
 Para manter a separação dos dados armazenados na Keychain, IOS usa o AppIdentifierPrefix (ID Apple) e o BundleIdentifier (User ID). 
+Nas versões anteriores ao IOS 10.3 quando um aplicativo é deletado, IOS não deleta os itens desse aplicativo da Keychain. 
+
+### Keychain Dump
+Link: https://github.com/ptoomey3/Keychain-Dumper
+
 
 
