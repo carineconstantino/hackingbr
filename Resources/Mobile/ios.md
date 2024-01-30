@@ -166,5 +166,6 @@ Instale a partir do Cydia adicionando o repositório ```http://repo.nesolabs.de`
 Link: https://code.google.com/archive/p/snoop-it/<p>
 Link: https://github.com/robdbirch/snoopit
 
-
+## Hooper 
+Link: https://www.hopperapp.com/
 
