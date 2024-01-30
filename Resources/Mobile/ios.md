@@ -160,4 +160,9 @@ Link: http://www.cycript.org/
 ## IDB 
 Link: https://github.com/facebook/idb
 
+## Snoop-IT
+Link: https://code.google.com/archive/p/snoop-it/
+Link: https://github.com/robdbirch/snoopit
+
+
 
