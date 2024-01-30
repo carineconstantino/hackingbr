@@ -163,7 +163,7 @@ Link: https://github.com/facebook/idb
 ## Snoop-IT
 Instale a partir do Cydia adicionando o repositório ```http://repo.nesolabs.de```
 
-Link: https://code.google.com/archive/p/snoop-it/
+Link: https://code.google.com/archive/p/snoop-it/<p>
 Link: https://github.com/robdbirch/snoopit
 
 
