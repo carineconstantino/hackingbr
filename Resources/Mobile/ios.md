@@ -152,3 +152,12 @@ Link: https://github.com/prateek147/DVIA-v2
 ## SSL Kill Switch
 Disable SSL certification validation (Certificate Pinning)
 Link: https://github.com/nabla-c0d3/ssl-kill-switch2
+
+(Testar essas tools)
+## CyCript
+Link: http://www.cycript.org/
+
+## IDB 
+Link: https://github.com/facebook/idb
+
+
