@@ -163,18 +163,18 @@ Link: https://varaneckas.com/jad/<p>
 Para o Ubuntu 22.04 usei o Jad 1.5.8e for Linux (statically linked)
 
 ### Alterar uma classe java para testar
-[1] Unzip os arquivos do .apk
-[2] Converter o arquivo classes.dex to .jar com dex2jar
-[3] Unzip o arquivo .jar
+[1] Unzip os arquivos do .apk<p>
+[2] Converter o arquivo classes.dex to .jar com dex2jar<p>
+[3] Unzip o arquivo .jar<p>
 
-[4] Converter os arquivos .java para .jad
+[4] Converter os arquivos .java para .jad<p>
 ```./jad [nome-do-arquivo].class```
 
-[5] Compilar o arquivo .jad para .java apenas fazendo uma cópia .java
-[6] Modifica o código
-[7] Compilar o arquivo .java 
+[5] Compilar o arquivo .jad para .java apenas fazendo uma cópia .java<p>
+[6] Modifica o código<p>
+[7] Compilar o arquivo .java<p> 
 ```javac [nome-do-arquivo].java```
-[8] Executa o código modificado 
+[8] Executa o código modificado<p> 
 ```java [nome-do-arquivo].java```
 
 
