@@ -173,7 +173,7 @@ Para o Ubuntu 22.04 usei o Jad 1.5.8e for Linux (statically linked)
 [5] Compilar o arquivo .jad para .java apenas fazendo uma cópia .java<p>
 [6] Modifica o código<p>
 [7] Compilar o arquivo .java<p> 
-```javac [nome-do-arquivo].java```
+```javac [nome-do-arquivo].java```<p>
 [8] Executa o código modificado<p> 
 ```java [nome-do-arquivo].java```
 
