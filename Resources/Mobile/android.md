@@ -162,6 +162,9 @@ Link: https://github.com/Nightbringer21/fridump
 Link: https://varaneckas.com/jad/
 Para o Ubuntu 22.04 usei o Jad 1.5.8e for Linux (statically linked)
 ```
+[+] Extrair os arquivos do .apk com o apktool
+[+] 
+
 Converter os arquivos .java para .jad
 ./jad [nome-do-arquivo].class
 ```
