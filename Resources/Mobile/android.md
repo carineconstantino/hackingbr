@@ -172,8 +172,8 @@ Converter os arquivos .java para .jad
 
 [+] Compilar o arquivo .jad para .java apenas fazendo uma cópia .java
 [+] Modifica o código
-[+] Compilar o arquivo .java ```javac [nome-do-arquivo].java
-[+] Executa o código modificado ```java [nome-do-arquivo].java
+[+] Compilar o arquivo .java ```javac [nome-do-arquivo].java```
+[+] Executa o código modificado ```java [nome-do-arquivo].java```
 
 ```
 
