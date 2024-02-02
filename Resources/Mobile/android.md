@@ -161,21 +161,22 @@ Link: https://github.com/Nightbringer21/fridump
 ## JAD Decompiler
 Link: https://varaneckas.com/jad/<p>
 Para o Ubuntu 22.04 usei o Jad 1.5.8e for Linux (statically linked)
-```
+
 ### Alterar uma classe java para testar
-[+] Unzip os arquivos do .apk
-[+] Converter o arquivo classes.dex to .jar com dex2jar
-[+] Unzip o arquivo .jar
+[ ] Unzip os arquivos do .apk
+[ ] Converter o arquivo classes.dex to .jar com dex2jar
+[ ] Unzip o arquivo .jar
 
-Converter os arquivos .java para .jad
-./jad [nome-do-arquivo].class
+[ ] Converter os arquivos .java para .jad
+```./jad [nome-do-arquivo].class```
 
-[+] Compilar o arquivo .jad para .java apenas fazendo uma cópia .java
-[+] Modifica o código
-[+] Compilar o arquivo .java ```javac [nome-do-arquivo].java```
-[+] Executa o código modificado ```java [nome-do-arquivo].java```
+[ ] Compilar o arquivo .jad para .java apenas fazendo uma cópia .java
+[ ] Modifica o código
+[ ] Compilar o arquivo .java 
+```javac [nome-do-arquivo].java```
+[ ] Executa o código modificado 
+```java [nome-do-arquivo].java```
 
-```
 
 
 
