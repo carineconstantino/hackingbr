@@ -157,3 +157,14 @@ Link: https://valsamaras.medium.com/pending-intents-a-pentesters-view-92f305960f
 ### Memory DUMP 
 #### Frida Dump
 Link: https://github.com/Nightbringer21/fridump
+
+## JAD Decompiler
+Link: https://varaneckas.com/jad/
+Para o Ubuntu 22.04 usei o Jad 1.5.8e for Linux (statically linked)
+```
+Converter os arquivos .java para .jad
+./jad [nome-do-arquivo].class
+```
+
+
+
