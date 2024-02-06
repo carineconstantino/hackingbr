@@ -182,7 +182,7 @@ Para ler esse arquivo é necessário instalar a ferramenta Realm Studio.<p>
 Copiar o arquivo arquivo para a máquina local e abri-lo na ferramenta.
 Links de referência para criptografar o arquivo default.realm: 
 
-[1] https://www.mongodb.com/docs/realm/sdk/kotlin/realm-database/realm-files/encrypt-a-realm/#:~:text=You%20encrypt%20the%20realm%20file,given%20512%2Dbit%20encryption%20key.
+[1] https://www.mongodb.com/docs/realm/sdk/kotlin/realm-database/realm-files/encrypt-a-realm/#:~:text=You%20encrypt%20the%20realm%20file,given%20512%2Dbit%20encryption%20key.<p>
 [2] https://github.com/julkar-nain/secure-realm-database
 
 
