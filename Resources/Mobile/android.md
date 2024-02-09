@@ -52,6 +52,16 @@ https://pt.wikipedia.org/wiki/Hist%C3%B3rico_de_vers%C3%B5es_do_Android
 ```
 Apenas mostra os arquivos mas não é possível ler
 unzip [app.apk] -d [app-name]
+
+## Estrutura do APK
+AndroidManinfest.xml
+classes.dex
+resources.arsc
+/assets
+/lib
+/META-INF
+/res
+
 ```
 ## APKTools 
 ```
