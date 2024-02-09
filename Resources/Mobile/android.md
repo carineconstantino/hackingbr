@@ -1,4 +1,7 @@
 ## Android Pentest
+### Versões Android
+https://pt.wikipedia.org/wiki/Hist%C3%B3rico_de_vers%C3%B5es_do_Android
+
 ### Checklist 
 ```
 [1] Análise estática do código - Tools
