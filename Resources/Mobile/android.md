@@ -119,6 +119,10 @@ The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS
 
 keytool -importkeystore -srckeystore secmob.keystore -destkeystore secmob.keystore -deststoretype pkcs12
 
+### Listar as chaves
+
+keytool -list -v -keystore [nome-da-chave]
+
 ```
 
 ## APKSigner (ver as assinaturas do APK)
