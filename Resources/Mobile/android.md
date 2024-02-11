@@ -109,6 +109,10 @@ adb uninstall package = desinstala o app
 adb kill-server = encerra o serviço do adb
 adb start-server = inicia o serviço do adb
 ```
+## Assinar o APK
+```
+keytool -genkey -v -keystore ehmob.keystore -alias ehmob -keyalg RSA –keysize 2048 -validity 10000
+```
 
 ## APKSigner (ver as assinaturas do APK)
 ```
