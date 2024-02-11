@@ -111,7 +111,7 @@ adb start-server = inicia o serviço do adb
 ```
 ## Assinar o APK
 ```
-keytool -genkey -v -keystore ehmob.keystore -alias ehmob -keyalg RSA –keysize 2048 -validity 10000
+keytool -genkey -v -keystore [nome-da-chave] -alias ehmob -keyalg RSA –keysize 2048 -validity 10000
 ```
 
 ## APKSigner (ver as assinaturas do APK)
