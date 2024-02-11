@@ -111,7 +111,14 @@ adb start-server = inicia o serviço do adb
 ```
 ## Assinar o APK
 ```
-keytool -genkey -v -keystore [nome-da-chave] -alias ehmob -keyalg RSA –keysize 2048 -validity 10000
+keytool -genkey -v -keystore [nome-da-chave] -alias [alias-da-chave] -keyalg RSA –keysize 2048 -validity 10000
+
+### Migrando para o padrão PKCS12
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore secmob.keystore -destkeystore secmob.keystore -deststoretype pkcs12"
+
+keytool -importkeystore -srckeystore secmob.keystore -destkeystore secmob.keystore -deststoretype pkcs12
+
 ```
 
 ## APKSigner (ver as assinaturas do APK)
