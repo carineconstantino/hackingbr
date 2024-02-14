@@ -104,6 +104,7 @@ adb -d shell (device)
 adb shell = acessa shell do device
 adb shell su = acessa shell como root
 adb shell [command] = executa um comando no device
+adb shell ps
 adb push teste.txt /data/local/tmp = copia dados para o android
 adb pull /data/local/tmp/teste.txt = pega dados do android
 adb install file.apk = instala o app manualmente
