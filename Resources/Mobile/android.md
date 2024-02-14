@@ -102,17 +102,29 @@ adb devices = lista devides (-d devices / -e emuladores / -s serial)
 adb -e shell (emulator)
 adb -d shell (device) 
 adb shell = acessa shell do device
-adb shell pm list packages (todos os pacotes)
-adb shell pm list packages -3 (pacotes específicos)
-adb shell su = acessa shell como root
-adb shell [command] = executa um comando no device
+## ver todos os pacotes
+adb shell pm list packages
+## Pacotes específicos
+adb shell pm list packages -3
+## Ver o caminho do arquivo base.apk
+adb shell pm path [package-name]
+## Acessa shell como root
+adb shell su
+## Executa um comando no device
+adb shell [command]
 adb shell ps
-adb push teste.txt /data/local/tmp = copia dados para o android
-adb pull /data/local/tmp/teste.txt = pega dados do android
-adb install file.apk = instala o app manualmente
-adb uninstall package = desinstala o app
-adb kill-server = encerra o serviço do adb
-adb start-server = inicia o serviço do adb
+## Copia dados para o android
+adb push teste.txt /data/local/tmp
+## Pega dados do android
+adb pull /data/local/tmp/teste.txt
+## Instala o app manualmente
+adb install file.apk
+## Desinstala o app
+adb uninstall package
+## Encerra o serviço do adb
+adb kill-server
+## Inicia o serviço do adb
+adb start-server
 ```
 ## Assinar o APK
 ```
