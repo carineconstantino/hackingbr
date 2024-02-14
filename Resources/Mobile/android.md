@@ -99,6 +99,7 @@ jadx-gui [app].apk
 Link: https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 ```
 adb devices = lista devides (-d devices / -e emuladores / -s serial)
+adb -e shell
 adb shell = acessa shell do device
 adb shell su = acessa shell como root
 adb shell [command] = executa um comando no device
