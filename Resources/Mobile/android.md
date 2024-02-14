@@ -100,8 +100,9 @@ Link: https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 ```
 adb devices = lista devides (-d devices / -e emuladores / -s serial)
 adb -e shell (emulator)
-adb -d shell (device) 
-adb shell = acessa shell do device
+adb -d shell (device)
+## Acessa shell do device
+adb shell
 ## ver todos os pacotes
 adb shell pm list packages
 ## Pacotes específicos
