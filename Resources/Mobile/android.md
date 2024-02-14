@@ -102,6 +102,8 @@ adb devices = lista devides (-d devices / -e emuladores / -s serial)
 adb -e shell (emulator)
 adb -d shell (device) 
 adb shell = acessa shell do device
+adb shell pm list packages (todos os pacotes)
+adb shell pm list packages -3 (pacotes específicos)
 adb shell su = acessa shell como root
 adb shell [command] = executa um comando no device
 adb shell ps
