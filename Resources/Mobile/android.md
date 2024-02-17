@@ -101,29 +101,41 @@ Link: https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8
 adb devices = lista devides (-d devices / -e emuladores / -s serial)
 adb -e shell (emulator)
 adb -d shell (device)
+
 ## Acessa shell do device
 adb shell
+
 ## ver todos os pacotes
 adb shell pm list packages
+
 ## Pacotes específicos
 adb shell pm list packages -3
+
 ## Ver o caminho do arquivo base.apk
 adb shell pm path [package-name]
+
 ## Acessa shell como root
 adb shell su
+
 ## Executa um comando no device
 adb shell [command]
 adb shell ps
+
 ## Copia dados para o android
 adb push teste.txt /data/local/tmp
+
 ## Pega dados do android
 adb pull /data/local/tmp/teste.txt
+
 ## Instala o app manualmente
 adb install file.apk
+
 ## Desinstala o app
 adb uninstall package
+
 ## Encerra o serviço do adb
 adb kill-server
+
 ## Inicia o serviço do adb
 adb start-server
 ```
