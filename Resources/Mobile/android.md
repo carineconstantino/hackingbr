@@ -74,6 +74,16 @@ java -jar apktools.jar b [diretorio-do-app]
 ### Script para fazer a compilação e assinatura do APK
 Link: https://github.com/carineconstantino/pentest-scripts/blob/main/CVE/mobile/android/compile_sign.zip
 ```
+## Gerar Arquivo .dex
+```
+1. cria um arquivo .java
+2. compila com o comando javac [arquivo].java
+3. cria o arquivo .dex com o comando:
+dx --dex --output=[arquivo].dex [arquivo].class
+(outro comando)
+./d8 [arquivo].class
+```
+
 ## Dex2Jar
 ```
 dex2jar.sh [app.apk] -o [app.jar]
