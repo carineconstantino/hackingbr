@@ -104,9 +104,13 @@ scp check-binary.sh root@[IP]:/var/root
 ```
 ./check-binary.sh /var/containers/Bundle/Application/[UUID]/arquivo.app
 ```
-## Diretório do Aplicativo 
+## Diretórios do Aplicativo 
 ```
+## Arquivos do APP
 /var/mobile/Containers/Data/Application/[UUID-do-Aplicartivo]/Library/Application Support/[nome-do-pacote-do-aplicativo]
+
+## .plist
+/var/mobile/Containers/Data/Application/[UUID-do-Aplicativo]/Library/Preferences
 ```
 
 ## Notas Teóricas
