@@ -146,8 +146,8 @@ Nas versões anteriores ao IOS 10.3 quando um aplicativo é deletado, IOS não d
 Link: https://github.com/ptoomey3/Keychain-Dumper
 
 Copia o executável keychain_dumper para o dispositivo móvel no diretório /tmp<p>
-Atribui permissão de execução<p> ```chmod +x keychain_dumper```
-Verfica se o arquivo keychain-2.db tem permissão de leitura
+Atribui permissão de execução ```chmod +x keychain_dumper```<p>
+Verfica se o arquivo keychain-2.db tem permissão de leitura<p>
 ```
 ls -l /private/var/Keychains/keychain-2.db
 
