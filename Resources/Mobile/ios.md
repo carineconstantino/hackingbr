@@ -145,6 +145,16 @@ Nas versões anteriores ao IOS 10.3 quando um aplicativo é deletado, IOS não d
 ### Keychain Dump
 Link: https://github.com/ptoomey3/Keychain-Dumper
 
+Copia o executável keychain_dumper para o dispositivo móvel no diretório /tmp<p>
+Atribui permissão de execução<p> ```chmod +x keychain_dumper```
+Verfica se o arquivo keychain-2.db tem permissão de leitura
+```
+ls -l /private/var/Keychains/keychain-2.db
+
+## Atribui permissão de leitura
+chmod +r /private/var/Keychains/keychain-2.db
+```
+
 ## Cookies
 IOS armazena os cookies dos aplicativos no diretório ```/private/var/mobile/Library/Cookies```, no arquivo cookies.binarycookies.
 
