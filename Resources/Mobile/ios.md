@@ -112,6 +112,14 @@ scp check-binary.sh root@[IP]:/var/root
 ## .plist
 /var/mobile/Containers/Data/Application/[UUID-do-Aplicativo]/Library/Preferences
 ```
+## Comandos Frida
+```
+## Ver os devices conectados 
+frida-ls-devices
+
+## Ver os aplicativos
+frida-ps -Uai
+```
 
 ## Notas Teóricas
 
