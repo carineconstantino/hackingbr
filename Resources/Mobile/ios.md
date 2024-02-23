@@ -179,6 +179,10 @@ Link: https://github.com/prateek147/DVIA-v2
 Disable SSL certification validation (Certificate Pinning)
 Link: https://github.com/nabla-c0d3/ssl-kill-switch2
 
+## Ver arquivos de "auto screenshots" .ktx
+Link: https://github.com/ydkhatri/MacForensics/tree/master
+Na máquina Windows, fazer o download do executável e arrastar o arquivo .ktx para cima do .exe, assim vai ser gerado um arquivo .png
+
 (Testar essas tools)
 ## CyCript
 Link: http://www.cycript.org/
