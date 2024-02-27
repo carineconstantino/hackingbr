@@ -162,6 +162,21 @@ ls -l /private/var/Keychains/keychain-2.db
 ## Atribui permissão de leitura
 chmod +r /private/var/Keychains/keychain-2.db
 ```
+## Memory Dump
+### Objection
+```
+## Load APP
+objection -g [app-nome-do-pacote] explore
+
+## Lista os módulos em memória
+memory list modules
+
+## Lista os módulos exportados em memória do APP
+memory list exports [app-nome-do-pacote]
+
+## Procura por strings em memória
+memory search [string-to-search] --string
+```
 
 ## Cookies
 IOS armazena os cookies dos aplicativos no diretório ```/private/var/mobile/Library/Cookies```, no arquivo cookies.binarycookies.
