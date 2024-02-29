@@ -175,13 +175,12 @@ frida-ls-devices
 frida-ps -Uai
 ```
 
-## Notas Teóricas
+## Arquivos e Diretórios para analisar
 
-- [ ] O sistema operacional iOS é baseado no Darwin OS, no qual é originalmente da Apple e escrito em C, C++ e Objective-C
-Link: https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html
-- [ ] iOS Security Guide: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
-- [ ] Boot ROM contém o Apple Root CA public-key que é usada para verificar que os softwares carregados são confiáveis pela Apple
-- [ ] Dispositivos que tem o processador A7 ou anteriores, possuem um processador chamado Secure Enclave
+- [ ] Info.plist = configurações do aplicativo
+- [ ] _CodeSignature = contém arquivos plist com assinatura para todos os arquivos do Bundle
+- [ ] Assets.car = formato .zip que contém os ativos usados pelo aplicativo, como icones
+- [ ] Frameworks = diretórios com bibliotecas nativas (.dylib ou .framework)
 - [ ] O Secure Enclave é um processador separado que possui o próprio processo de boot e seu hardware gera um número randômico (key)
 - [ ] Esse processador facilita as operações de criptografia no iOS
 - [ ] As chaves do TouchID, FaceID e a senha definida pelo usuário (passcode) ficam no Secure Enclave, que possui uma chave randômica
