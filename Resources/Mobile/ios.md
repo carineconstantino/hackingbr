@@ -103,6 +103,9 @@ Se o ZIP não estiver instalado, usar o comando apt-get para instalar
 ```
 scp root@[IP]:/private/var/containers/Bundle/Application/[UUID]/Payload/[nome-do-aplicativo].ipa
 ```
+## Extrair o arquivo IPA do dispositivo com Frida IOS Dump
+Link: https://github.com/AloneMonkey/frida-ios-dump
+
 ## MOBSF - Mobile Security Framework
 Use o MOBSF para fazer a análise estática do arquivo .ipa <br>
 Link: https://github.com/MobSF/Mobile-Security-Framework-MobSF <br>
