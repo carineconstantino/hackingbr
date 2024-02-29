@@ -75,15 +75,17 @@ Instalação do SSL KILL Switch 2:
 
 - [ ] Acessar o diretório do arquivo .app
 ```
-cd /var/containers/Bundle/Application/
-ls -l
+cd /private/var/containers/Bundle/Application/
 ```
 - [ ] Localizar o arquivo do aplicativo UUID
 ```
 ls * | grep -B 2 -i 'nome-do-aplicativo'
 
-Outra forma de localizar é acessar no dispositivo o Filza Manager o caminho
-/var/containers/Bundle/Application/ e será possível ver o nome do aplicativo e o seu código
+Outra forma de localizar é acessar o caminho pelo Filza Manager
+/var/containers/Bundle/Application/ e será possível ver o nome do aplicativo e o seu código UUID
+
+Outra forma é buscar dentro da pasta /var
+find /var/ -name "*.app"
 ```
 - [ ] Copiar o diretório .app para um diretório com o nome Payload
 ```
