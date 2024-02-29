@@ -25,6 +25,7 @@ Adicione os repositórios: Manage > Sources > Edit > Add
 - [ ] https://build.frida.re (Frida Repo)
 
 Instale os seguintes pacotes:<br>
+Search > [nome-do-pacote] > Install<br>
 
 - HideJB
 - Frida
