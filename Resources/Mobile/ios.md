@@ -31,6 +31,19 @@ Search > [nome-do-pacote] > Install<br>
 - Frida
 - Appsync Unified
 
+## iDevice
+Link: https://github.com/libimobiledevice/ideviceinstaller
+
+## Ver o nome do device conectado
+```
+idevicename
+```
+
+## Instalar o arquivo IPA no dispositivo
+```
+ideviceinstaller - i [nome-do-arquivo].ipa
+```
+
 ## Acesso o aparelho com o SSH
 Link: https://blog.elcomsoft.com/2020/05/ios-jailbreaks-ssh-and-root-password/
 
