@@ -34,12 +34,12 @@ Search > [nome-do-pacote] > Install<br>
 ## iDevice
 Link: https://github.com/libimobiledevice/ideviceinstaller
 
-## Ver o nome do device conectado
+### Ver o nome do device conectado
 ```
 idevicename
 ```
 
-## Instalar o arquivo IPA no dispositivo
+### Instalar o arquivo IPA no dispositivo
 ```
 ideviceinstaller - i [nome-do-arquivo].ipa
 ```
