@@ -177,6 +177,8 @@ frida-ps -Uai
 
 ## Arquivos e Diretórios para analisar
 
+Bundle directories = /var/containers/Bundle/Application<br>
+
 - [ ] Info.plist = configurações do aplicativo
 - [ ] _CodeSignature = contém arquivos plist com assinatura para todos os arquivos do Bundle
 - [ ] Assets.car = formato .zip que contém os ativos usados pelo aplicativo, como icones
@@ -185,6 +187,15 @@ frida-ps -Uai
 - [ ] Core Data = armazena dados para uso offline, cache, dados temporários
 - [ ] PkgInfo = arquivo que é uma alternativa para especificar tipos e códigos para o aplicativo
 - [ ] en.lproj, Base.lproj = arquivos com a definição de linguagem
+
+Data directories = /var/mobile/Containers/Data/Application
+
+- [ ] Documents
+- [ ] Library
+- [ ] StoreKit
+- [ ] SystemData
+- [ ] tmp
+
 
 ## Prevenir Captura de tela
 Função ```ApplicationDidEnterBackground()```
