@@ -40,6 +40,24 @@ Para descobrir a senha do aparelho, acesse o arquivo localizado em /private/etc/
 A linha do usuário root possui o hash da senha **smx7MYTQIi2M** que é **alpine**
 Em seguida, use o SSH para acessar o telefone. 
 
+## SSL Kill Switch 2 
+Instalação do SSL KILL Switch 2:
+
+- Acesse o dispositivo com o SSH
+- Acesse a pasta /tmp
+- Download o SSL Kill Switch 2
+  ```
+  wget https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.14/com.nablac0d3.sslkillswitch2_0.14.deb .
+  ```
+- Instale o pacote
+  ```
+  dpkg -i com.nablac0d3.sslkillswitch2_0.14.deb
+  ```
+- Reinicie o SpringBoard
+  ```
+  killall -HUP SpringBoard
+  ```
+
 ## Extrair o arquivo IPA do dispositivo
 
 - [ ] Acessar o diretório do arquivo .app
@@ -95,7 +113,7 @@ Link: https://yalujailbreak.net/flyjb/ <br>
 - [ ] A-Bypass <br>
 Link: https://onejailbreak.com/blog/a-bypass-tweak/ <br>
 
-## Análise do binário do aplicativo 
+## OTOOL - Análise do binário do aplicativo 
 Link: https://github.com/saladandonionrings/iOS-Binary-Security-Analyzer
 
 - [ ] Instalar no Cydia o pacote Big Boss
@@ -117,10 +135,11 @@ git clone https://github.com/saladandonionrings/ios-binary-checks.git
 scp check-binary.sh root@[IP]:/var/root
 ```
 
-- [ ] Execute o análise no dispositivo
+- [ ] Execute a análise no dispositivo
 ```
 ./check-binary.sh /var/containers/Bundle/Application/[UUID]/arquivo.app
 ```
+
 ## Diretórios do Aplicativo 
 ```
 ## Arquivos do APP
