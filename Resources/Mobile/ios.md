@@ -3,7 +3,11 @@
 ## CheckRa1n
 
 Link: https://checkra.in/<br>
-Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk
+Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk<p>
+Ref.: https://aupsham98.medium.com/practical-ios-penetration-testing-a-step-by-step-guide-8214d35aaf3c<p>
+
+O Checkra1n é compatível com versões do IOS até a 14.<p>
+Ver a versão no dispositivo: Settings > Genral > About on your device<p>
 
 - [ ] Inicie o checkra1n
 - [ ] Pressione o botão de desligar junto com o botão de diminuir volume
@@ -13,6 +17,12 @@ Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk
 - [ ] O APP do checkra1n vai aparecer no telefone
 - [ ] Acesse o APP e instale o Cydia
 - [ ] Instale o APP Filza Manager
+
+## Cydia - Package Manager for Jailbroken IOS
+Adicione os repositórios: Manage > Sources > Edit > Add
+
+- [ ] https://cydia.akemi.ai (Karen's Repo)
+- [ ] https://build.frida.re (Frida Repo)
 
 ## Acesso o aparelho com o SSH
 Link: https://blog.elcomsoft.com/2020/05/ios-jailbreaks-ssh-and-root-password/
