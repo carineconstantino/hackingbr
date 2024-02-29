@@ -101,7 +101,7 @@ Se o ZIP não estiver instalado, usar o comando apt-get para instalar
 ```
 - [ ] Transferir o arquivo para o computador local
 ```
-scp root@[IP]:/Payload/[nome-do-aplicativo].ipa
+scp root@[IP]:/private/var/containers/Bundle/Application/[UUID]/Payload/[nome-do-aplicativo].ipa
 ```
 ## MOBSF - Mobile Security Framework
 Use o MOBSF para fazer a análise estática do arquivo .ipa <br>
