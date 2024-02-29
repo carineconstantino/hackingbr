@@ -181,8 +181,8 @@ frida-ps -Uai
 - [ ] _CodeSignature = contém arquivos plist com assinatura para todos os arquivos do Bundle
 - [ ] Assets.car = formato .zip que contém os ativos usados pelo aplicativo, como icones
 - [ ] Frameworks = diretórios com bibliotecas nativas (.dylib ou .framework)
-- [ ] O Secure Enclave é um processador separado que possui o próprio processo de boot e seu hardware gera um número randômico (key)
-- [ ] Esse processador facilita as operações de criptografia no iOS
+- [ ] PlugIns = diretório contém extensão de plugIns
+- [ ] Core Data = 
 - [ ] As chaves do TouchID, FaceID e a senha definida pelo usuário (passcode) ficam no Secure Enclave, que possui uma chave randômica
 
 ## Prevenir Captura de tela
