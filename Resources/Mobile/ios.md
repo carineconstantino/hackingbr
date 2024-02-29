@@ -3,7 +3,7 @@
 ## CheckRa1n
 
 Link: https://checkra.in/<br>
-Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk<p>
+Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk
 Ref.: https://aupsham98.medium.com/practical-ios-penetration-testing-a-step-by-step-guide-8214d35aaf3c<p>
 
 O Checkra1n é compatível com versões do IOS até a 14.<p>
