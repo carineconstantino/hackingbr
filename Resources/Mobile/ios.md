@@ -10,7 +10,7 @@ Vídeo: https://www.youtube.com/watch?v=ar4tq_6HYPk
 - [ ] Quando a tela apagar, continue pressionando o botao de diminuir por 10 segundos
 - [ ] O aparelho tem que entrar no modo DFU, no checkra1n click em Quit
 - [ ] Em seguida na CLI digite **checkra1n -c**
-- [ ] O APP do checkra1n vai aparece no telefone
+- [ ] O APP do checkra1n vai aparecer no telefone
 - [ ] Acesse o APP e instale o Cydia
 - [ ] Instale o APP Filza Manager
 
