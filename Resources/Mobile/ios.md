@@ -182,8 +182,9 @@ frida-ps -Uai
 - [ ] Assets.car = formato .zip que contém os ativos usados pelo aplicativo, como icones
 - [ ] Frameworks = diretórios com bibliotecas nativas (.dylib ou .framework)
 - [ ] PlugIns = diretório contém extensão de plugIns
-- [ ] Core Data = 
-- [ ] As chaves do TouchID, FaceID e a senha definida pelo usuário (passcode) ficam no Secure Enclave, que possui uma chave randômica
+- [ ] Core Data = armazena dados para uso offline, cache, dados temporários
+- [ ] PkgInfo = arquivo que é uma alternativa para especificar tipos e códigos para o aplicativo
+- [ ] en.lproj, Base.lproj = arquivos com a definição de linguagem
 
 ## Prevenir Captura de tela
 Função ```ApplicationDidEnterBackground()```
