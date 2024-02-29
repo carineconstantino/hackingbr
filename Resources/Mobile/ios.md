@@ -95,7 +95,7 @@ cp -r [nome-do-aplicativo].app/ Payload/
 ```
 Adicione a extensão .ipa diretamente na compressão
 
-zip -r /[caminho]/[nome-do-aplicativo].ipa Payload/
+zip -r Payload/[nome-do-aplicativo].ipa Payload/
 
 Se o ZIP não estiver instalado, usar o comando apt-get para instalar
 ```
