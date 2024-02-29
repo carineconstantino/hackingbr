@@ -29,7 +29,7 @@ Search > [nome-do-pacote] > Install<br>
 
 - HideJB
 - Frida
-- Appsync Unified
+- Appsync Unified (Permite a instalação de aplicativos auto-assinados, assinatura-fake, não-assinados, arquivos expirados)
 
 ## iDevice
 Link: https://github.com/libimobiledevice/ideviceinstaller
