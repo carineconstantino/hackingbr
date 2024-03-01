@@ -178,7 +178,7 @@ Previne falhas comuns de "memory corruption". O retorno deve mostrar a flag objc
 ```
 otool -I -v [nome-do-app] | grep objc_release
 ```
-## OTOOL - 
+## OTOOL - ARC (Automatic Reference Counting)
 ```
 otool -arch all -Vl [nome-do-app] | grep -A5 LC_ENCRYPT
 ```
