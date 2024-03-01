@@ -159,7 +159,7 @@ scp check-binary.sh root@[IP]:/var/root
 ```
 ## OTOOL - PIE (Position Independent Executable)
 O binário do aplicativo não possui a flag fPIE-pie<br>
-ASLR (Address Space Layout Randomization) protege o binário do aplicativo iOS contra vulnerabilidades DE "memory corruption" (Buffer Overflow), randomizando a localização dos objetos do aplicativo na memória cada vez que o aplicativo é reiniciado. O ASLR é implementado compilando o binário do aplicativo iOS com a flag PIE. 
+ASLR (Address Space Layout Randomization) protege o binário do aplicativo iOS contra vulnerabilidades de "memory corruption" (Buffer Overflow), randomizando a localização dos objetos do aplicativo na memória cada vez que o aplicativo é reiniciado. O ASLR é implementado compilando o binário do aplicativo iOS com a flag PIE.<br> 
 Ref.: https://medium.com/cybersecurityservices/analyzing-the-ipa-file-of-an-ios-based-application-9c0a1749fe69
 ```
 otool -hv <app-binary> | grep PIE   # It should include the PIE flag
