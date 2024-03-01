@@ -173,7 +173,11 @@ otool -Vh [nome-do-app]
 ```
 otool -I -v [nome-do-aplicativo] | grep stack_chk
 ```
-
+## OTOOL - ARC (Automatic Reference Counting)
+Previne falhas comuns de "memory corruption". O retorno deve mostrar a flag objc_release para indicar que o aplicativo encontra-se protegido. 
+```
+otool -I -v [nome-do-app] | grep objc_release
+```
 
 ## Diretórios do Aplicativo 
 ```
