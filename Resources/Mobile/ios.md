@@ -163,7 +163,10 @@ ASLR (Address Space Layout Randomization) protege o binário do aplicativo iOS c
 Ref.: https://medium.com/cybersecurityservices/analyzing-the-ipa-file-of-an-ios-based-application-9c0a1749fe69<br>
 Quando o ASLR é ativado, o aplicativo é carregado em um endereço de memória aleatório sempre que é iniciado, dificultando a previsão do endereço de memória inicial.
 ```
-otool -hv <app-binary> | grep PIE   # It should include the PIE flag
+otool -hv [nome-do-app] | grep PIE   # It should include the PIE flag
+```
+```
+otool -Vh [nome-do-app]
 ```
 ## OTOOL - Stack Canaries (fstack-protector flag)
 "Stack Canary" é um valor adicionado antes da execução de uma função, ou seja, é adicionado na "pilha de execução" para checar a ocorrência de Buffer Overflow. A checagem ocorre no inicio e não final da "pilha". Se o aplicativo tiver a flag ```stack_chk_guard``` habilitada, a proteção está ativa. Aplicativo desenvolvidos em Swift possuem esssa proteção por padrão. No entanto, aplicativos desenvolvidos em Objective-C code e C/C++ podem estar vulneráveis caso a proteção não esteja habilitada. 
