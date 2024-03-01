@@ -165,6 +165,12 @@ Quando o ASLR é ativado, o aplicativo é carregado em um endereço de memória 
 ```
 otool -hv <app-binary> | grep PIE   # It should include the PIE flag
 ```
+## OTOOL - Stack Canaries (fstack-protector flag)
+"Stack Canary" é um valor adicionado antes da execução de uma função, ou seja, é adicionado na "pilha de execução" para checar a ocorrência de Buffer Overflow. A checagem ocorre no inicio e não final da "pilha". Se o aplicativo tiver a flag stack_chk_guard habilitada, a proteção está ativa. Aplicativo desenvolvidos em Swift possuem esssa proteção por padrão. No entanto, aplicativos desenvolvidos em Objective-C code e C/C++ podem estar vulneráveis caso a proteção não esteja habilitada. 
+```
+otool -I -v [nome-do-aplicativo] | grep stack_chk
+```
+
 
 ## Diretórios do Aplicativo 
 ```
