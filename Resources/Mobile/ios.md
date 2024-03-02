@@ -182,10 +182,13 @@ otool -I -v [nome-do-app] | grep objc_release
 ```
 otool -arch all -Vl [nome-do-app] | grep -A5 LC_ENCRYPT
 ```
-## OTOOL - Algoritmos Inseguros
+## OTOOL - Hash Algoritmos Inseguros
+Algoritmos como MD5 e SHA1 usados em uma função Hash são considerados inseguros devido a vulnerabilidades de "colisão". Além disso, eles podem ser quebrados em sites com uma grande base ou por ferramentas como Hashcat. 
 ```
 otool -I -v [nome-do-app] | grep -w "_CC_MD5" ou -w "_CC_SHA1"
 ```
+## OTOOL - Insegure Random Functions
+
 
 ## Diretórios do Aplicativo 
 ```
