@@ -188,6 +188,9 @@ Algoritmos como MD5 e SHA1 usados em uma função Hash são considerados insegur
 otool -I -v [nome-do-app] | grep -w "_CC_MD5" ou -w "_CC_SHA1"
 ```
 ## OTOOL - Insegure Random Functions
+Ref.: https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator<br>
+https://medium.com/cybersecurityservices/analyzing-the-ipa-file-of-an-ios-based-application-9c0a1749fe69<br>
+Essas funções são consideradas inseguras pois geram números randônicos que podem ser previstos por um atacante. 
 ```
 otool -I -v [nome-do-app] | grep -w "_random"
 otool -I -v [nome-do-app] | grep -w "_srand"
