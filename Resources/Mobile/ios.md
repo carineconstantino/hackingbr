@@ -196,6 +196,27 @@ otool -I -v [nome-do-app] | grep -w "_random"
 otool -I -v [nome-do-app] | grep -w "_srand"
 otool -I -v [nome-do-app] | grep -w "_rand"
 ```
+## OTOOL - Insecure 'Malloc' Fuction
+Ref.: https://www.diffen.com/difference/Calloc_vs_Malloc<br>
+A função "malloc" é considerada insegura mantém os valores alocados em memória quando a função é iniciada. Esse comportamento é considerado um risco de segurança porque o conteúdo da memória não é precisto e erros ao iniciar a função podem resultar no vazamento deste conteúdo. É recomendado usar a função "calloc" que ao ser iniciada, a região de alocação da memória inicia com zero. 
+```
+otool -I -v [nome-do-app] | grep -w "_malloc"
+```
+## OTOOL - Funções vulneráveis
+Funções Obsoletas que são vulneráveis a buffer overflow. No IOS a exploração de buffer overflow com essas funções tem uma complexidade alta. A recomendação para não usar essas funções constituí boas práticas de segurança. 
+```
+otool -I -v [nome-do-app] | grep -w "_gets"
+otool -I -v [nome-do-app] | grep -w "_memcpy"
+otool -I -v [nome-do-app] | grep -w "_strncpy"
+otool -I -v [nome-do-app] | grep -w "_strlen"
+otool -I -v [nome-do-app] | grep -w "_vsnprintf"
+otool -I -v [nome-do-app] | grep -w "_sscanf"
+otool -I -v [nome-do-app] | grep -w "_strtok"
+otool -I -v [nome-do-app] | grep -w "_alloca"
+otool -I -v [nome-do-app] | grep -w "_sprintf"
+otool -I -v [nome-do-app] | grep -w "_printf"
+otool -I -v [nome-do-app] | grep -w "_vsprintf"
+```
 
 
 ## Diretórios do Aplicativo 
