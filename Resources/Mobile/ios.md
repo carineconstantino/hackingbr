@@ -43,7 +43,14 @@ idevicename
 ```
 ideviceinstaller - i [nome-do-arquivo].ipa
 ```
+## Comandos Frida
+```
+## Ver os devices conectados 
+frida-ls-devices
 
+## Ver os aplicativos
+frida-ps -Uai
+```
 ## Acesso o aparelho com o SSH
 Link: https://blog.elcomsoft.com/2020/05/ios-jailbreaks-ssh-and-root-password/
 
