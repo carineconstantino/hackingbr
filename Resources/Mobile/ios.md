@@ -290,6 +290,14 @@ Link: https://developer.apple.com/library/archive/qa/qa1838/_index.html
 
 A captura de tela fica armazenada no local ```/Library/Caches/Snapshots/```
 
+## Ver arquivos de "auto screenshots" .ktx
+Link: https://github.com/ydkhatri/MacForensics/tree/master<p>
+Na máquina Windows, fazer o download do executável e arrastar o arquivo .ktx para cima do .exe, assim vai ser gerado um arquivo .png
+```
+## Local onde os arquivos .ktx ficam armazenados
+/var/mobile/Containers/Data/Application/$APP_ID/Library/SplashBoard/Snapshots/sceneID:$APP_NAME-default/
+```
+
 ## Keychain
 Container criptografado que armazena senhas para aplicativos e serviços do IOS.
 Usa criptogradia simétrica AES Key (passcode do usuário + salt (256 bit UID))
