@@ -268,12 +268,16 @@ Data directories = /var/mobile/Containers/Data/Application
 ```
 ios cookies get --json
 ```
-## idevice - Logs
-```
-## Ver o ID do dispositivo
-idevice_id
+## idevice
+Ref.: https://github.com/libimobiledevice/libimobiledevice<br>
 
-## Ver os logs
+#### Ver o ID do dispositivo
+```
+idevice_id
+```
+
+#### Ver os logs
+```
 idevicesyslog -u idevice_id | grep "[nome-do-app]"
 ```
 
