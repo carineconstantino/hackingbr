@@ -219,15 +219,23 @@ otool -I -v [nome-do-app] | grep -w "_printf"
 otool -I -v [nome-do-app] | grep -w "_vsprintf"
 ```
 
-
 ## Diretórios do Aplicativo 
 ```
 ## Arquivos do APP
-/var/mobile/Containers/Data/Application/[UUID-do-Aplicartivo]/Library/Application Support/[nome-do-pacote-do-aplicativo]
+private/var/mobile/Containers/Data/Application/[UUID-do-Aplicartivo]/Library/Application Support/[nome-do-pacote-do-aplicativo]
 
 ## .plist
 /var/mobile/Containers/Data/Application/[UUID-do-Aplicativo]/Library/Preferences
 ```
+## Info.plist
+```
+## Objection
+ios plist cat Info.plist
+
+## Linux
+plistutil -i Info.plist -o Infoxml.plist
+```
+
 ## Comandos Frida
 ```
 ## Ver os devices conectados 
@@ -239,7 +247,7 @@ frida-ps -Uai
 
 ## Arquivos e Diretórios para analisar
 
-Bundle directories = /var/containers/Bundle/Application<br>
+Bundle directories = private/var/containers/Bundle/Application<br>
 
 - [ ] Info.plist = configurações do aplicativo
 - [ ] _CodeSignature = contém arquivos plist com assinatura para todos os arquivos do Bundle
