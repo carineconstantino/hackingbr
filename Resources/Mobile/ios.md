@@ -284,7 +284,7 @@ idevice_id
 idevicesyslog -u idevice_id | grep "[nome-do-app]"
 ```
 
-## Prevenir Captura de tela
+## Prevenir captura de tela
 Função ```ApplicationDidEnterBackground()```<br>
 Link: https://developer.apple.com/library/archive/qa/qa1838/_index.html
 
@@ -311,17 +311,18 @@ Para manter a separação dos dados armazenados na Keychain, IOS usa o AppIdenti
 Nas versões anteriores ao IOS 10.3 quando um aplicativo é deletado, IOS não deleta os itens desse aplicativo da Keychain. 
 
 ### Keychain Dump
-Link: https://github.com/ptoomey3/Keychain-Dumper
+Link: https://github.com/ptoomey3/Keychain-Dumper<br>
 
-Copia o executável keychain_dumper para o dispositivo no diretório /tmp<p>
-Atribui permissão de execução ```chmod +x keychain_dumper```<p>
-Verfica se o arquivo keychain-2.db tem permissão de leitura<p>
+Copia o executável keychain_dumper para o dispositivo no diretório /tmp<br>
+Atribui permissão de execução ```chmod +x keychain_dumper```<br>
+Verfica se o arquivo keychain-2.db tem permissão de leitura<br>
 ```
 ls -l /private/var/Keychains/keychain-2.db
 
 ## Atribui permissão de leitura
 chmod +r /private/var/Keychains/keychain-2.db
 ```
+
 ## Memory Dump
 ### Objection
 ```
