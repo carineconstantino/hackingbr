@@ -268,6 +268,9 @@ Data directories = /var/mobile/Containers/Data/Application
 ```
 ios cookies get --json
 ```
+## Cookies
+IOS armazena os cookies dos aplicativos no diretório ```/private/var/mobile/Library/Cookies```, no arquivo cookies.binarycookies.
+
 ## idevice
 Ref.: https://github.com/libimobiledevice/libimobiledevice<br>
 
@@ -326,9 +329,6 @@ memory list exports [app-nome-do-pacote]
 ## Procura por strings em memória
 memory search [string-to-search] --string
 ```
-
-## Cookies
-IOS armazena os cookies dos aplicativos no diretório ```/private/var/mobile/Library/Cookies```, no arquivo cookies.binarycookies.
 
 ### Binary Cookie Parser
 Link: https://github.com/mdegrazia/Safari-Binary-Cookie-Parser
