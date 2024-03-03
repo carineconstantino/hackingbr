@@ -9,4 +9,5 @@ No IOS essas informações podem ser localizadas no arquivo GoogleService-Info.p
 curl -v -X POST "https://firebaseremoteconfig.googleapis.com/v1/projects/[NOME/ID]/namespaces/firebase:fetch?key=[API KEY]" -H "Content-Type: application/json" --data '{"appId": "[ID]", "appInstanceId": "[NOME]"}'
 ```
 Se o retorno do comando for "state: NO_TEMPLATE" indica que a aplicação não usa o Firebase Remote Config ou não há configuração habilitada.<br>
-Se o retorno do comando for "state: UPDATE" as configurações serão retornadas. 
+Se o retorno do comando for "state: UPDATE" as configurações serão retornadas. <br>
+Ref.: https://blog.deesee.xyz/android/automation/2019/08/03/firebase-remote-config-dump.html
