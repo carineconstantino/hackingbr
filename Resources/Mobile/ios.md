@@ -268,7 +268,7 @@ Data directories = /var/mobile/Containers/Data/Application
 ```
 ios cookies get --json
 ```
-## iDEvice - Logs
+## idevice - Logs
 ```
 ## Ver o ID do dispositivo
 idevice_id
