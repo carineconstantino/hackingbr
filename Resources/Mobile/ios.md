@@ -203,6 +203,7 @@ A função "malloc" é considerada insegura mantém os valores alocados em memó
 otool -I -v [nome-do-app] | grep -w "_malloc"
 ```
 ## OTOOL - Funções vulneráveis
+Ref.: https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Articles/BufferOverflows.html<br>
 Funções Obsoletas que são vulneráveis a buffer overflow. No IOS a exploração de buffer overflow com essas funções tem uma complexidade alta. A recomendação para não usar essas funções constituí boas práticas de segurança. 
 ```
 otool -I -v [nome-do-app] | grep -w "_gets"
