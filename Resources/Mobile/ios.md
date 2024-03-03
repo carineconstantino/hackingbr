@@ -285,13 +285,13 @@ idevicesyslog -u idevice_id | grep "[nome-do-app]"
 ```
 
 ## Prevenir Captura de tela
-Função ```ApplicationDidEnterBackground()```
+Função ```ApplicationDidEnterBackground()```<br>
 Link: https://developer.apple.com/library/archive/qa/qa1838/_index.html
 
 A captura de tela fica armazenada no local ```/Library/Caches/Snapshots/```
 
 ## Ver arquivos de "auto screenshots" .ktx
-Link: https://github.com/ydkhatri/MacForensics/tree/master<p>
+Link: https://github.com/ydkhatri/MacForensics/tree/master<br>
 Na máquina Windows, fazer o download do executável e arrastar o arquivo .ktx para cima do .exe, assim vai ser gerado um arquivo .png
 ```
 ## Local onde os arquivos .ktx ficam armazenados
