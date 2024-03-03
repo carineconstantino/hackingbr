@@ -242,16 +242,6 @@ ios plist cat Info.plist
 ## Linux
 plistutil -i Info.plist -o Infoxml.plist
 ```
-
-## Comandos Frida
-```
-## Ver os devices conectados 
-frida-ls-devices
-
-## Ver os aplicativos
-frida-ps -Uai
-```
-
 ## Arquivos e Diretórios para analisar
 
 Bundle directories = private/var/containers/Bundle/Application<br>
@@ -273,6 +263,11 @@ Data directories = /var/mobile/Containers/Data/Application
 - [ ] SystemData
 - [ ] tmp
 
+
+## Objection - Cookies
+```
+ios cookies get --json
+```
 
 ## Prevenir Captura de tela
 Função ```ApplicationDidEnterBackground()```
