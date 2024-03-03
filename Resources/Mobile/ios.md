@@ -268,6 +268,14 @@ Data directories = /var/mobile/Containers/Data/Application
 ```
 ios cookies get --json
 ```
+## iDEvice - Logs
+```
+## Ver o ID do dispositivo
+idevice_id
+
+## Ver os logs
+idevicesyslog -u idevice_id | grep "[nome-do-app]"
+```
 
 ## Prevenir Captura de tela
 Função ```ApplicationDidEnterBackground()```
