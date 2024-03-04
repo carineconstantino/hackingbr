@@ -164,10 +164,13 @@ keytool -importkeystore -srckeystore secmob.keystore -destkeystore secmob.keysto
 keytool -list -v -keystore [nome-da-chave]
 
 ```
-
 ## APKSigner (ver as assinaturas do APK)
 ```
 apt install -y apksigner
+```
+## Log
+```
+adb shell logcat
 ```
 
 ## Activities
