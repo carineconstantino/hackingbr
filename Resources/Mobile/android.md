@@ -85,6 +85,10 @@ dx --dex --output=[arquivo].dex [arquivo].class
 ```
 ## Smali/Baksmali
 Link: https://github.com/JesusFreke/smali
+```
+## dex to smali
+java -jar baksmali.jar d [classes.dex] -o [nome-da-pasta]
+```
 
 ## Dex2Jar
 ```
