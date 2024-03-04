@@ -83,6 +83,8 @@ dx --dex --output=[arquivo].dex [arquivo].class
 (outro comando)
 ./d8 [arquivo].class
 ```
+## Smali/Baksmali
+Link: https://github.com/JesusFreke/smali
 
 ## Dex2Jar
 ```
