@@ -178,6 +178,10 @@ keytool -list -v -keystore [nome-da-chave]
 ```
 ## APKSigner (ver as assinaturas do APK)
 ```
+apksigner verify --verbose [nome-do-apk].apk
+```
+## APKSigner Install 
+```
 apt install -y apksigner
 ```
 ## Log
