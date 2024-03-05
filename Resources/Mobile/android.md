@@ -85,6 +85,7 @@ dx --dex --output=[arquivo].dex [arquivo].class
 ```
 ## Smali/Baksmali
 Link: https://github.com/JesusFreke/smali
+Ref.: https://source.android.com/docs/core/runtime/dalvik-bytecode
 ```
 ## dex to smali
 java -jar baksmali.jar d [classes.dex] -o [nome-da-pasta]
