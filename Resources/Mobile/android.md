@@ -161,6 +161,11 @@ adb kill-server
 ## Inicia o serviço do adb
 adb start-server
 ```
+## Backup com ADB
+```
+adb backup -apk -nosystem [nome-do-pacote]
+```
+
 ## Assinar o APK
 ```
 keytool -genkey -v -keystore [nome-da-chave] -alias [alias-da-chave] -keyalg RSA –keysize 2048 -validity 10000
