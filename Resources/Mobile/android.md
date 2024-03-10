@@ -165,6 +165,14 @@ adb start-server
 ```
 adb backup -apk -nosystem [nome-do-pacote]
 ```
+### Android Backup Extrator
+```
+java -jar abe.jar unpack backup.ab backup.tar 123
+```
+#### TAR descompress
+```
+tar xvf backup.tar
+```
 
 ## Assinar o APK
 ```
