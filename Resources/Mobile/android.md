@@ -244,8 +244,8 @@ Exemplo: am start-service -n com.android.music/com.android.music.MediaPlaybackSe
 am start-service -n org.owasp.android/.services.LocationService -a org.owasp.android.services.LocationServices
 ```
 ## Bypass Biometria
-Scripts Frida: 
-[+] [Fingerprint-bypass](https://github.com/WithSecureLabs/android-keystore-audit/blob/master/frida-scripts/fingerprint-bypass.js)
+Scripts Frida:<br> 
+[+] [Fingerprint-bypass](https://github.com/WithSecureLabs/android-keystore-audit/blob/master/frida-scripts/fingerprint-bypass.js)<br>
 [+] [Fingerprint-bypass-via-exception-handlin](https://github.com/WithSecureLabs/android-keystore-audit/blob/master/frida-scripts/fingerprint-bypass-via-exception-handling.js)
 
 ### Deep Links
