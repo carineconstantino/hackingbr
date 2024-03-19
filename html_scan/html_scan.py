@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse
 import requests
 from bs4 import BeautifulSoup
@@ -16,9 +18,22 @@ def extrair_links_do_html(html_conteudo):
     links = set(a.get('href') for a in soup.find_all('a', href=True))
     return links
 
-def extrair_links_do_js(js_conteudo):
-    js_links = set(re.findall(r'(?:https?|ftp)://[^\s/$.?#].[^\s]*', js_conteudo))
+def extrair_links_de_js(js_conteudo):
+    js_links = set(re.findall(r'(?:https?|http)://[^\s/$.?#]+\.(?:js)(?:\?\S*)?', js_conteudo))
     return js_links
+
+def extrair_links_de_imagem(imagem_conteudo):
+    pattern = r'(?:https?|http)://[^\s/$.?#]+\.(?:jpg|jpeg|png|gif|bmp|svg)(?:\?\S*)?'
+    image_links = re.findall(pattern, imagem_conteudo, re.IGNORECASE)
+    return image_links
+    
+def extrair_links_de_scripts(script_html):
+    # Pattern to find links within <script> tags
+    pattern = r'<script.*?src=["\'](.*?)["\'].*?</script>'
+    links_script = re.findall(pattern, script_html, re.IGNORECASE | re.DOTALL)
+    return links_script    
+    
+
 
 def search_links(url):
     try:
@@ -30,7 +45,14 @@ def search_links(url):
         html_links = extrair_links_do_html(response.text)
 
         # Extrai links do conteudo JavaScript
-        js_links = extrair_links_do_js(response.text)
+        js_links = extrair_links_de_js(response.text)
+        
+        # Extrai links de imagem
+        image_links = extrair_links_de_imagem(response.text)
+
+	# Extrai links de scripts
+        links_script = extrair_links_de_scripts(response.text)
+
 
     	# Extrair datetime
         d = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -50,6 +72,17 @@ def search_links(url):
         print("")
         for link in js_links:
             print("[+] ",link)
+        
+        print("\nImagens Links:")
+        print("")
+        for link in image_links:
+            print("[+] ",link)
+        
+        print("\nScripts Links:")
+        print("")
+        for link in links_script:
+            print("[+] ",link)
+        
             
         # Gera o relatorio em HTML
         html_report = f"""
@@ -72,6 +105,18 @@ def search_links(url):
             <ul>
                 {"".join(f'<li><a href="{link}">{link}</a></li>' for link in js_links)}
             </ul>
+            
+            <h3>Imagem Links:</h3>
+            <ul>
+                {"".join(f'<li><a href="{link}">{link}</a></li>' for link in image_links)}
+            </ul>
+
+	   <h3>Scripts Links:</h3>
+            <ul>
+                {"".join(f'<li><a href="{link}">{link}</a></li>' for link in links_script)}
+            </ul>
+		
+
         </body>
         </html>
         """
