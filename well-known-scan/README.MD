@@ -11,6 +11,6 @@ Well-Known Scan é uma ferramenta para mapear os diretórios e arquivos com meta
 python3 well-known-scan.py
 ```
 <p align="left">
-    <img width="500" src="well_known_scan.png"><p></p>
+    <img width="500" src="well-known-scan-exemplo.png"><p></p>
 </p>
 
