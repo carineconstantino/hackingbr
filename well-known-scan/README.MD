@@ -1,5 +1,4 @@
 <p align="center">
-    <img width="500" src="html_scan.png" alt="Well-Known Scan"><p></p>
     <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
 </p>
 
