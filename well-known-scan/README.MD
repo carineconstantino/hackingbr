@@ -1,5 +1,5 @@
 <p align="left">
-    <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
+    <a href="https://github.com/carineconstantino/hackingbr">@hackingbr</a>
 </p>
 
 ## Well-Known Scan Tool
