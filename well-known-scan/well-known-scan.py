@@ -16,7 +16,7 @@ def directory_discovery(url, filename):
 
         for directory in wordlist:
             directory = directory.strip()  # Remove any leading/trailing whitespace
-            full_url = url + "/" + directory
+            full_url = url + "/.well-known/" + directory
             response = requests.get(full_url)
             if response.status_code == 200:
                 print("[+] Directory found:", full_url)
