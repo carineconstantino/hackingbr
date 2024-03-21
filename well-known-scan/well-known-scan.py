@@ -7,7 +7,7 @@ print('Criado por @hackingbr\n')
 print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ')
 
 
-filename = "/path/well-known-urls.txt"
+filename = "/path/well-known-uri.txt"
 
 def directory_discovery(url, filename):
     try:
