@@ -21,7 +21,7 @@ Default output format [None]: json
 ```
 ## Mostra a configuração 
 ```
-aws configura list
+aws configure list
 ```
 
 ## Public Search S3
