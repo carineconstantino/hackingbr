@@ -3,15 +3,15 @@
 </p>
 
 ## HTTP Bypass
-HTTP Bypass é uma ferramenta em python para testar diversos métodos HTTP em uma requisição. O objetivo é identificar os códigos aceitos pela aplicação e, em caso de 403 Forbidden, os códigos que podem ser usados para bypass. O resultado é salvo em um arquivo HTML para facilitar a visualização. 
+HTTP Bypass é uma ferramenta em python para testar diversos métodos HTTP em uma requisição e, em seguida, a ferramenta realiza um brute-force usando diversos métodos HTTP para tentar fazer o bypass do acesso. 
 
 ## Exemplo
 ```
 python3 http_bypass.py [url]
 ```
-### Resultado no HTML
+### Resultado
 <p align="left">
-    <img width="500" src="h"><p></p>
+    <img width="500" src="http-bypass.png"><p></p>
 </p>
 
 ## HTTP Headers Scan
