@@ -7,7 +7,7 @@ HTTP Bypass é uma ferramenta em python para testar diversos métodos HTTP em um
 
 ## Exemplo
 ```
-python3 http_bypass.py
+python3 http_bypass.py [url]
 ```
 ### Resultado no HTML
 <p align="left">
@@ -21,7 +21,9 @@ HTTP Headers Scan é uma ferramenta em python que analisa o cabeçalho HTTP e in
 ```
 python3 http-headers-scan.py
 ```
-
+<p align="left">
+    <img width="500" src="scan-headers.png"><p></p>
+</p>
 
 #
 
