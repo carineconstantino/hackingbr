@@ -1,5 +1,4 @@
-<p align="center">
-    <img width="500" src="html_scan.png" alt="HTML SCAN"><p></p>
+<p align="left">
     <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
 </p>
 
@@ -14,6 +13,15 @@ python3 http_bypass.py
 <p align="left">
     <img width="500" src="h"><p></p>
 </p>
+
+## HTTP Headers Scan
+HTTP Headers Scan é uma ferramenta em python que analisa o cabeçalho HTTP e indica os parâmetros que estão ausentes. 
+
+## Exemplo
+```
+python3 http-headers-scan.py
+```
+
 
 #
 
