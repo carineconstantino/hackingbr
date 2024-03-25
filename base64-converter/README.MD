@@ -1,6 +1,5 @@
 <p align="center">
-    <img width="500" src="html_dir_scan.png" alt="Base64 Converter"><p></p>
-    <a href="https://github.com/carineconstantino/hackingbr">@hackingbr></a>
+    <a href="https://github.com/carineconstantino/hackingbr">@hackingbr</a>
 </p>
 
 ## Base64 Converter
